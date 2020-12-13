@@ -1,0 +1,49 @@
+= ERC 20
+
+[.readme-notice]
+NOTE: This document is better viewed at https://docs.openzeppelin.com/contracts/api/token/HRC20
+
+This set of interfaces, contracts, and utilities are all related to the https://eips.ethereum.org/EIPS/eip-20[HRC20 Token Standard].
+
+TIP: For an overview of HRC20 tokens and a walk through on how to create a token contract read our xref:ROOT:HRC20.adoc[HRC20 guide].
+
+There a few core contracts that implement the behavior specified in the EIP:
+
+* {IHRC20}: the interface all HRC20 implementations should conform to.
+* {HRC20}: the implementation of the HRC20 interface, including the <<HRC20-name,`name`>>, <<HRC20-symbol,`symbol`>> and <<HRC20-decimals,`decimals`>> optional standard extension to the base interface.
+
+Additionally there are multiple custom extensions, including:
+
+* designation of addresses that can pause token transfers for all users ({HRC20Pausable}).
+* efficient storage of past token balances to be later queried at any point in time ({HRC20Snapshot}).
+* destruction of own tokens ({HRC20Burnable}).
+* enforcement of a cap to the total supply when minting tokens ({HRC20Capped}).
+
+Finally, there are some utilities to interact with HRC20 contracts in various ways.
+
+* {SafeHRC20} is a wrapper around the interface that eliminates the need to handle boolean return values.
+* {TokenTimelock} can hold tokens for a beneficiary until a specified time.
+
+NOTE: This core set of contracts is designed to be unopinionated, allowing developers to access the internal functions in HRC20 (such as <<HRC20-_mint-address-uint256-,`_mint`>>) and expose them as external functions in the way they prefer. On the other hand, xref:ROOT:HRC20.adoc#Presets[HRC20 Presets] (such as {HRC20PresetMinterPauser}) are designed using opinionated patterns to provide developers with ready to use, deployable contracts.
+
+== Core
+
+{{IHRC20}}
+
+{{HRC20}}
+
+== Extensions
+
+{{HRC20Snapshot}}
+
+{{HRC20Pausable}}
+
+{{HRC20Burnable}}
+
+{{HRC20Capped}}
+
+== Utilities
+
+{{SafeHRC20}}
+
+{{TokenTimelock}}

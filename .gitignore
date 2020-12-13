@@ -1,0 +1,11 @@
+.idea
+
+# build/contracts
+
+/node_modules/
+
+*.mnemonic
+
+*.deployed
+
+**/artifacts
