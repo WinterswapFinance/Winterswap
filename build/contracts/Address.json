@@ -6559,7 +6559,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-13T09:12:40.575Z",
+  "updatedAt": "2020-12-14T17:55:36.303Z",
   "devdoc": {
     "details": "Collection of functions related to the address type",
     "kind": "dev",

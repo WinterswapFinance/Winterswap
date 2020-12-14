@@ -5831,7 +5831,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-13T09:12:40.573Z",
+  "updatedAt": "2020-12-14T17:55:36.300Z",
   "devdoc": {
     "details": "Wrappers around HRC20 operations that throw on failure (when the token contract returns false). Tokens that return no value (and instead revert or throw on failure) are also supported, non-reverting calls are assumed to be successful. To use this library you can add a `using SafeHRC20 for IHRC20;` statement to your contract, which allows you to call the safe operations as `token.safeTransfer(...)`, etc.",
     "kind": "dev",

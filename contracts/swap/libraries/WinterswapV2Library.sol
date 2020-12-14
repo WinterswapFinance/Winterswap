@@ -7,6 +7,10 @@ import '../interfaces/IWinterswapV2Pair.sol';
 import "./SafeMathSwap.sol";
 
 library WinterswapV2Library {
+
+    uint256 constant PERMILLE = 1000;
+    uint256 constant SWAP_FEE_PERMILLE = 5;
+
     using SafeMathSwap for uint;
 
     // returns sorted token addresses, used to handle return values from pairs sorted in this order
@@ -23,7 +27,7 @@ library WinterswapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'350bac35df54ee1d290ea04add79e768b5d3d034bef410497991499407bbbc7c' // init code hash
+                hex'6395f42a69484405cd9eb411db8b13030088be632cb4ca733e537b3f9889e4c9' // init code hash
         ))));
     }
 
@@ -45,9 +49,9 @@ library WinterswapV2Library {
     function getAmountOut(uint amountIn, uint reserveIn, uint reserveOut) internal pure returns (uint amountOut) {
         require(amountIn > 0, 'WinterswapV2Library: INSUFFICIENT_INPUT_AMOUNT');
         require(reserveIn > 0 && reserveOut > 0, 'WinterswapV2Library: INSUFFICIENT_LIQUIDITY');
-        uint amountInWithFee = amountIn.mul(997);
+        uint amountInWithFee = amountIn.mul(PERMILLE-SWAP_FEE_PERMILLE);
         uint numerator = amountInWithFee.mul(reserveOut);
-        uint denominator = reserveIn.mul(1000).add(amountInWithFee);
+        uint denominator = reserveIn.mul(PERMILLE).add(amountInWithFee);
         amountOut = numerator / denominator;
     }
 
@@ -55,8 +59,8 @@ library WinterswapV2Library {
     function getAmountIn(uint amountOut, uint reserveIn, uint reserveOut) internal pure returns (uint amountIn) {
         require(amountOut > 0, 'WinterswapV2Library: INSUFFICIENT_OUTPUT_AMOUNT');
         require(reserveIn > 0 && reserveOut > 0, 'WinterswapV2Library: INSUFFICIENT_LIQUIDITY');
-        uint numerator = reserveIn.mul(amountOut).mul(1000);
-        uint denominator = reserveOut.sub(amountOut).mul(997);
+        uint numerator = reserveIn.mul(amountOut).mul(PERMILLE);
+        uint denominator = reserveOut.sub(amountOut).mul(PERMILLE-SWAP_FEE_PERMILLE);
         amountIn = (numerator / denominator).add(1);
     }
 
@@ -80,5 +84,23 @@ library WinterswapV2Library {
             (uint reserveIn, uint reserveOut) = getReserves(factory, path[i - 1], path[i]);
             amounts[i - 1] = getAmountIn(amounts[i], reserveIn, reserveOut);
         }
+    }
+
+    // given an input amount of an asset and pair reserves, returns the maximum output amount of the other asset
+    function getAmountOutFree(uint amountIn, uint reserveIn, uint reserveOut) internal pure returns (uint amountOut) {
+        require(amountIn > 0, 'WinterswapV2Library: INSUFFICIENT_INPUT_AMOUNT_FREE');
+        require(reserveIn > 0 && reserveOut > 0, 'WinterswapV2Library: INSUFFICIENT_LIQUIDITY_FREE');
+        uint numerator = amountIn.mul(reserveOut);
+        uint denominator = reserveIn.add(amountIn);
+        amountOut = numerator / denominator;
+    }
+
+    // given an output amount of an asset and pair reserves, returns a required input amount of the other asset
+    function getAmountInFree(uint amountOut, uint reserveIn, uint reserveOut) internal pure returns (uint amountIn) {
+        require(amountOut > 0, 'WinterswapV2Library: INSUFFICIENT_OUTPUT_AMOUNT_FREE');
+        require(reserveIn > 0 && reserveOut > 0, 'WinterswapV2Library: INSUFFICIENT_LIQUIDITY_FREE');
+        uint numerator = reserveIn.mul(amountOut);
+        uint denominator = reserveOut.sub(amountOut);
+        amountIn = (numerator / denominator).add(1);
     }
 }

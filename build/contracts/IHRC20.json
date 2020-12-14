@@ -1961,7 +1961,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-13T09:12:40.573Z",
+  "updatedAt": "2020-12-14T17:55:36.298Z",
   "devdoc": {
     "details": "Interface of the HRC20 standard as defined in the EIP.",
     "events": {

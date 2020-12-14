@@ -1,0 +1,1238 @@
+{
+  "contractName": "WNSKey",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "FARM",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "Router",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SNOWBALL",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SNOWMAN",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SWAP_FACTORY",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "WHT",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.5+commit.eb77ed08\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"FARM\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"Router\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"SNOWBALL\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"SNOWMAN\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"SWAP_FACTORY\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"WHT\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/WNSKey.sol\":\"WNSKey\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/WNSKey.sol\":{\"keccak256\":\"0x2eb8e3730714031279540475890f4578646c83e99a83d20cf76fb9db86a8d67f\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://d608ba85b9a09d0f30f31d28285d639d7dac500c34d2e51d0b623fc1ae92151c\",\"dweb:/ipfs/QmeR1w2QDyeRbQhYV4cjt28xTsbnhQWYAugYwYfSmZxHX7\"]}},\"version\":1}",
+  "bytecode": "0x61016b610026600b82828239805160001a60731461001957fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361061006c5760003560e01c80635cb4859214610071578063b3a9992e1461008b578063c4a0c25a14610093578063eaf0f2271461009b578063ecb7347f146100a3578063f6d7eade146100ab575b600080fd5b6100796100b3565b60408051918252519081900360200190f35b6100796100c5565b6100796100d8565b6100796100f3565b610079610109565b610079610120565b6a5748545f4144445245535360a81b81565b6b4641524d5f4144445245535360a01b81565b73535741505f464143544f52595f4144445245535360601b81565b6e534e4f574d414e5f4144445245535360881b81565b6f534e4f5742414c4c5f4144445245535360801b81565b6d524f555445525f4144445245535360901b8156fea2646970667358221220fdb924b4d5ba01c8a233c0ecd205cf0c35cd5303e294a99162dc32976123ac9264736f6c63430007050033",
+  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361061006c5760003560e01c80635cb4859214610071578063b3a9992e1461008b578063c4a0c25a14610093578063eaf0f2271461009b578063ecb7347f146100a3578063f6d7eade146100ab575b600080fd5b6100796100b3565b60408051918252519081900360200190f35b6100796100c5565b6100796100d8565b6100796100f3565b610079610109565b610079610120565b6a5748545f4144445245535360a81b81565b6b4641524d5f4144445245535360a01b81565b73535741505f464143544f52595f4144445245535360601b81565b6e534e4f574d414e5f4144445245535360881b81565b6f534e4f5742414c4c5f4144445245535360801b81565b6d524f555445525f4144445245535360901b8156fea2646970667358221220fdb924b4d5ba01c8a233c0ecd205cf0c35cd5303e294a99162dc32976123ac9264736f6c63430007050033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "71:411:70:-:0;;;;;;;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "71:411:70:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;233:52;;;:::i;:::-;;;;;;;;;;;;;;;;425:54;;;:::i;157:70::-;;;:::i;291:60::-;;;:::i;357:62::-;;;:::i;93:58::-;;;:::i;233:52::-;-1:-1:-1;;;233:52:70;:::o;425:54::-;-1:-1:-1;;;425:54:70;:::o;157:70::-;-1:-1:-1;;;157:70:70;:::o;291:60::-;-1:-1:-1;;;291:60:70;:::o;357:62::-;-1:-1:-1;;;357:62:70;:::o;93:58::-;-1:-1:-1;;;93:58:70;:::o",
+  "source": "// SPDX-License-Identifier: GPL-3.0-or-later\n\npragma solidity ^0.7.0;\n\nlibrary WNSKey {\n\n    bytes32 public constant Router = bytes32('ROUTER_ADDRESS');\n    bytes32 public constant SWAP_FACTORY = bytes32('SWAP_FACTORY_ADDRESS');\n    bytes32 public constant WHT = bytes32('WHT_ADDRESS');\n    bytes32 public constant SNOWMAN = bytes32('SNOWMAN_ADDRESS');\n    bytes32 public constant SNOWBALL = bytes32('SNOWBALL_ADDRESS');\n    bytes32 public constant FARM = bytes32('FARM_ADDRESS');\n}\n",
+  "sourcePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/WNSKey.sol",
+  "ast": {
+    "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/WNSKey.sol",
+    "exportedSymbols": {
+      "WNSKey": [
+        14451
+      ]
+    },
+    "id": 14452,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 14414,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "46:23:70"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "fullyImplemented": true,
+        "id": 14451,
+        "linearizedBaseContracts": [
+          14451
+        ],
+        "name": "WNSKey",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": true,
+            "functionSelector": "f6d7eade",
+            "id": 14420,
+            "mutability": "constant",
+            "name": "Router",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "93:58:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14415,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "93:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "524f555445525f41444452455353",
+                  "id": 14418,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "134:16:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_8c0b425d57efc8e745ed7cee854c17a8658e3020ee1125f8bf9598355812a589",
+                    "typeString": "literal_string \"ROUTER_ADDRESS\""
+                  },
+                  "value": "ROUTER_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_8c0b425d57efc8e745ed7cee854c17a8658e3020ee1125f8bf9598355812a589",
+                    "typeString": "literal_string \"ROUTER_ADDRESS\""
+                  }
+                ],
+                "id": 14417,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "126:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14416,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "126:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14419,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "126:25:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "c4a0c25a",
+            "id": 14426,
+            "mutability": "constant",
+            "name": "SWAP_FACTORY",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "157:70:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14421,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "157:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "535741505f464143544f52595f41444452455353",
+                  "id": 14424,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "204:22:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_5aa17dcaf0436d66ff1a94fd452341951717df45f07aa562744b08cbd9b8fa6c",
+                    "typeString": "literal_string \"SWAP_FACTORY_ADDRESS\""
+                  },
+                  "value": "SWAP_FACTORY_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_5aa17dcaf0436d66ff1a94fd452341951717df45f07aa562744b08cbd9b8fa6c",
+                    "typeString": "literal_string \"SWAP_FACTORY_ADDRESS\""
+                  }
+                ],
+                "id": 14423,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "196:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14422,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "196:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14425,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "196:31:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "5cb48592",
+            "id": 14432,
+            "mutability": "constant",
+            "name": "WHT",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "233:52:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14427,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "233:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "5748545f41444452455353",
+                  "id": 14430,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "271:13:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_71a6fa42d6647cdcf57f23b1d4d439bfa53a7cbb185cbdb4a582cf65009d5e56",
+                    "typeString": "literal_string \"WHT_ADDRESS\""
+                  },
+                  "value": "WHT_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_71a6fa42d6647cdcf57f23b1d4d439bfa53a7cbb185cbdb4a582cf65009d5e56",
+                    "typeString": "literal_string \"WHT_ADDRESS\""
+                  }
+                ],
+                "id": 14429,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "263:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14428,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "263:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14431,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "263:22:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "eaf0f227",
+            "id": 14438,
+            "mutability": "constant",
+            "name": "SNOWMAN",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "291:60:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14433,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "291:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "534e4f574d414e5f41444452455353",
+                  "id": 14436,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "333:17:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_0952434d10dff4423f8a903a7a12b455384469a3a188fc175f7cc6389c6b0318",
+                    "typeString": "literal_string \"SNOWMAN_ADDRESS\""
+                  },
+                  "value": "SNOWMAN_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_0952434d10dff4423f8a903a7a12b455384469a3a188fc175f7cc6389c6b0318",
+                    "typeString": "literal_string \"SNOWMAN_ADDRESS\""
+                  }
+                ],
+                "id": 14435,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "325:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14434,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "325:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14437,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "325:26:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "ecb7347f",
+            "id": 14444,
+            "mutability": "constant",
+            "name": "SNOWBALL",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "357:62:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14439,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "357:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "534e4f5742414c4c5f41444452455353",
+                  "id": 14442,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "400:18:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_25bf21b4f29fc1bfda6b50eb8ee6e33d4d1eda509213fcc0529f71f357d965ec",
+                    "typeString": "literal_string \"SNOWBALL_ADDRESS\""
+                  },
+                  "value": "SNOWBALL_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_25bf21b4f29fc1bfda6b50eb8ee6e33d4d1eda509213fcc0529f71f357d965ec",
+                    "typeString": "literal_string \"SNOWBALL_ADDRESS\""
+                  }
+                ],
+                "id": 14441,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "392:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14440,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "392:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14443,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "392:27:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "b3a9992e",
+            "id": 14450,
+            "mutability": "constant",
+            "name": "FARM",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "425:54:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14445,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "425:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "4641524d5f41444452455353",
+                  "id": 14448,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "464:14:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_7289af97dcee7443d608fb89e57b606d6003d613b03e03393444d28f4d2efc79",
+                    "typeString": "literal_string \"FARM_ADDRESS\""
+                  },
+                  "value": "FARM_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_7289af97dcee7443d608fb89e57b606d6003d613b03e03393444d28f4d2efc79",
+                    "typeString": "literal_string \"FARM_ADDRESS\""
+                  }
+                ],
+                "id": 14447,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "456:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14446,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "456:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14449,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "456:23:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 14452,
+        "src": "71:411:70"
+      }
+    ],
+    "src": "46:437:70"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/WNSKey.sol",
+    "exportedSymbols": {
+      "WNSKey": [
+        14451
+      ]
+    },
+    "id": 14452,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 14414,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "46:23:70"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "library",
+        "fullyImplemented": true,
+        "id": 14451,
+        "linearizedBaseContracts": [
+          14451
+        ],
+        "name": "WNSKey",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": true,
+            "functionSelector": "f6d7eade",
+            "id": 14420,
+            "mutability": "constant",
+            "name": "Router",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "93:58:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14415,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "93:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "524f555445525f41444452455353",
+                  "id": 14418,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "134:16:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_8c0b425d57efc8e745ed7cee854c17a8658e3020ee1125f8bf9598355812a589",
+                    "typeString": "literal_string \"ROUTER_ADDRESS\""
+                  },
+                  "value": "ROUTER_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_8c0b425d57efc8e745ed7cee854c17a8658e3020ee1125f8bf9598355812a589",
+                    "typeString": "literal_string \"ROUTER_ADDRESS\""
+                  }
+                ],
+                "id": 14417,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "126:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14416,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "126:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14419,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "126:25:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "c4a0c25a",
+            "id": 14426,
+            "mutability": "constant",
+            "name": "SWAP_FACTORY",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "157:70:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14421,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "157:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "535741505f464143544f52595f41444452455353",
+                  "id": 14424,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "204:22:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_5aa17dcaf0436d66ff1a94fd452341951717df45f07aa562744b08cbd9b8fa6c",
+                    "typeString": "literal_string \"SWAP_FACTORY_ADDRESS\""
+                  },
+                  "value": "SWAP_FACTORY_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_5aa17dcaf0436d66ff1a94fd452341951717df45f07aa562744b08cbd9b8fa6c",
+                    "typeString": "literal_string \"SWAP_FACTORY_ADDRESS\""
+                  }
+                ],
+                "id": 14423,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "196:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14422,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "196:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14425,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "196:31:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "5cb48592",
+            "id": 14432,
+            "mutability": "constant",
+            "name": "WHT",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "233:52:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14427,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "233:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "5748545f41444452455353",
+                  "id": 14430,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "271:13:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_71a6fa42d6647cdcf57f23b1d4d439bfa53a7cbb185cbdb4a582cf65009d5e56",
+                    "typeString": "literal_string \"WHT_ADDRESS\""
+                  },
+                  "value": "WHT_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_71a6fa42d6647cdcf57f23b1d4d439bfa53a7cbb185cbdb4a582cf65009d5e56",
+                    "typeString": "literal_string \"WHT_ADDRESS\""
+                  }
+                ],
+                "id": 14429,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "263:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14428,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "263:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14431,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "263:22:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "eaf0f227",
+            "id": 14438,
+            "mutability": "constant",
+            "name": "SNOWMAN",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "291:60:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14433,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "291:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "534e4f574d414e5f41444452455353",
+                  "id": 14436,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "333:17:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_0952434d10dff4423f8a903a7a12b455384469a3a188fc175f7cc6389c6b0318",
+                    "typeString": "literal_string \"SNOWMAN_ADDRESS\""
+                  },
+                  "value": "SNOWMAN_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_0952434d10dff4423f8a903a7a12b455384469a3a188fc175f7cc6389c6b0318",
+                    "typeString": "literal_string \"SNOWMAN_ADDRESS\""
+                  }
+                ],
+                "id": 14435,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "325:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14434,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "325:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14437,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "325:26:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "ecb7347f",
+            "id": 14444,
+            "mutability": "constant",
+            "name": "SNOWBALL",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "357:62:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14439,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "357:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "534e4f5742414c4c5f41444452455353",
+                  "id": 14442,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "400:18:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_25bf21b4f29fc1bfda6b50eb8ee6e33d4d1eda509213fcc0529f71f357d965ec",
+                    "typeString": "literal_string \"SNOWBALL_ADDRESS\""
+                  },
+                  "value": "SNOWBALL_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_25bf21b4f29fc1bfda6b50eb8ee6e33d4d1eda509213fcc0529f71f357d965ec",
+                    "typeString": "literal_string \"SNOWBALL_ADDRESS\""
+                  }
+                ],
+                "id": 14441,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "392:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14440,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "392:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14443,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "392:27:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "constant": true,
+            "functionSelector": "b3a9992e",
+            "id": 14450,
+            "mutability": "constant",
+            "name": "FARM",
+            "nodeType": "VariableDeclaration",
+            "scope": 14451,
+            "src": "425:54:70",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 14445,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "425:7:70",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "hexValue": "4641524d5f41444452455353",
+                  "id": 14448,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "string",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "464:14:70",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_stringliteral_7289af97dcee7443d608fb89e57b606d6003d613b03e03393444d28f4d2efc79",
+                    "typeString": "literal_string \"FARM_ADDRESS\""
+                  },
+                  "value": "FARM_ADDRESS"
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_stringliteral_7289af97dcee7443d608fb89e57b606d6003d613b03e03393444d28f4d2efc79",
+                    "typeString": "literal_string \"FARM_ADDRESS\""
+                  }
+                ],
+                "id": 14447,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "456:7:70",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes32_$",
+                  "typeString": "type(bytes32)"
+                },
+                "typeName": {
+                  "id": 14446,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "456:7:70",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 14449,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "456:23:70",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          }
+        ],
+        "scope": 14452,
+        "src": "71:411:70"
+      }
+    ],
+    "src": "46:437:70"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.5+commit.eb77ed08.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2020-12-14T16:55:49.792Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

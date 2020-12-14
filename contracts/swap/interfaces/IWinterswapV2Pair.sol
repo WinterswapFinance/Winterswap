@@ -16,7 +16,17 @@ interface IWinterswapV2Pair is IWinterswapV2HRC20{
         uint amount1Out,
         address indexed to
     );
+    event SwapFree(
+        address indexed sender,
+        uint amount0In,
+        uint amount1In,
+        uint amount0Out,
+        uint amount1Out,
+        address indexed to
+    );
+    event TransferTxFee(address indexed token, address to, uint256 amount);
     event Sync(uint112 reserve0, uint112 reserve1);
+    event FeeToGovenance(address indexed token, address indexed to, uint256 amount);
 
     function MINIMUM_LIQUIDITY() external pure returns (uint);
     function factory() external view returns (address);
@@ -30,8 +40,10 @@ interface IWinterswapV2Pair is IWinterswapV2HRC20{
     function mint(address to) external returns (uint liquidity);
     function burn(address to) external returns (uint amount0, uint amount1);
     function swap(uint amount0Out, uint amount1Out, address to, bytes calldata data) external;
+    function swap_free(uint amount0Out, uint amount1Out, address to, bytes calldata data) external;
+    function transfer_tx_fee(uint256 amount, address token, address to) external;
     function skim(address to) external;
     function sync() external;
 
-    function initialize(address, address) external;
+    function initialize(address, address, address) external;
 }

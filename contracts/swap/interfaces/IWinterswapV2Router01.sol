@@ -94,4 +94,5 @@ interface IWinterswapV2Router01 {
     function getAmountIn(uint amountOut, uint reserveIn, uint reserveOut) external pure returns (uint amountIn);
     function getAmountsOut(uint amountIn, address[] calldata path) external view returns (uint[] memory amounts);
     function getAmountsIn(uint amountOut, address[] calldata path) external view returns (uint[] memory amounts);
+    function pairFor(address tokenA, address tokenB) external view returns (address pair);
 }

@@ -1,0 +1,842 @@
+{
+  "contractName": "IWNS",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "router",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "swap_factory",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "wht",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "snowman",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "snowball",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "farm",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.7.5+commit.eb77ed08\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"farm\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"router\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"snowball\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"snowman\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"swap_factory\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"wht\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/IWNS.sol\":\"IWNS\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/IWNS.sol\":{\"keccak256\":\"0x0f9e939e59f7650636861d2692aec604c1783c827a2090cee06e56db42fee647\",\"license\":\"GPL-3.0-or-later\",\"urls\":[\"bzz-raw://a86ebd69809df98cda480e3203bda31c9018e2e950d734e608658d16b6bfd767\",\"dweb:/ipfs/Qma62ZcsuFZvZKWSpBfDrEXCAK4vCJHksRB9BSJahoPeyA\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: GPL-3.0-or-later\n\npragma solidity ^0.7.0;\n\ninterface IWNS {\n    function router() external view returns (address);\n    function swap_factory() external view returns (address);\n    function wht() external view returns (address);\n    function snowman() external view returns (address);\n    function snowball() external view returns (address);\n    function farm() external view returns (address);\n}\n",
+  "sourcePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/IWNS.sol",
+  "ast": {
+    "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/IWNS.sol",
+    "exportedSymbols": {
+      "IWNS": [
+        14381
+      ]
+    },
+    "id": 14382,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 14350,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "46:23:68"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 14381,
+        "linearizedBaseContracts": [
+          14381
+        ],
+        "name": "IWNS",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "f887ea40",
+            "id": 14355,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "router",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14351,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:2:68"
+            },
+            "returnParameters": {
+              "id": 14354,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14353,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14355,
+                  "src": "133:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14352,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "133:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "132:9:68"
+            },
+            "scope": 14381,
+            "src": "92:50:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "cad631b5",
+            "id": 14360,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "swap_factory",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14356,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "168:2:68"
+            },
+            "returnParameters": {
+              "id": 14359,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14358,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14360,
+                  "src": "194:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14357,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "194:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "193:9:68"
+            },
+            "scope": 14381,
+            "src": "147:56:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "785f3499",
+            "id": 14365,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "wht",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14361,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "220:2:68"
+            },
+            "returnParameters": {
+              "id": 14364,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14363,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14365,
+                  "src": "246:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14362,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "246:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "245:9:68"
+            },
+            "scope": 14381,
+            "src": "208:47:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "6b9c1856",
+            "id": 14370,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "snowman",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14366,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "276:2:68"
+            },
+            "returnParameters": {
+              "id": 14369,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14368,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14370,
+                  "src": "302:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14367,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "302:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "301:9:68"
+            },
+            "scope": 14381,
+            "src": "260:51:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "28f2642f",
+            "id": 14375,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "snowball",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14371,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "333:2:68"
+            },
+            "returnParameters": {
+              "id": 14374,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14373,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14375,
+                  "src": "359:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14372,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "359:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "358:9:68"
+            },
+            "scope": 14381,
+            "src": "316:52:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "36e9332d",
+            "id": 14380,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "farm",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14376,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "386:2:68"
+            },
+            "returnParameters": {
+              "id": 14379,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14378,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14380,
+                  "src": "412:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14377,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "412:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "411:9:68"
+            },
+            "scope": 14381,
+            "src": "373:48:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 14382,
+        "src": "71:352:68"
+      }
+    ],
+    "src": "46:378:68"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/IWNS.sol",
+    "exportedSymbols": {
+      "IWNS": [
+        14381
+      ]
+    },
+    "id": 14382,
+    "license": "GPL-3.0-or-later",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 14350,
+        "literals": [
+          "solidity",
+          "^",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "46:23:68"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 14381,
+        "linearizedBaseContracts": [
+          14381
+        ],
+        "name": "IWNS",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "f887ea40",
+            "id": 14355,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "router",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14351,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:2:68"
+            },
+            "returnParameters": {
+              "id": 14354,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14353,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14355,
+                  "src": "133:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14352,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "133:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "132:9:68"
+            },
+            "scope": 14381,
+            "src": "92:50:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "cad631b5",
+            "id": 14360,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "swap_factory",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14356,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "168:2:68"
+            },
+            "returnParameters": {
+              "id": 14359,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14358,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14360,
+                  "src": "194:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14357,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "194:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "193:9:68"
+            },
+            "scope": 14381,
+            "src": "147:56:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "785f3499",
+            "id": 14365,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "wht",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14361,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "220:2:68"
+            },
+            "returnParameters": {
+              "id": 14364,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14363,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14365,
+                  "src": "246:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14362,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "246:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "245:9:68"
+            },
+            "scope": 14381,
+            "src": "208:47:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "6b9c1856",
+            "id": 14370,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "snowman",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14366,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "276:2:68"
+            },
+            "returnParameters": {
+              "id": 14369,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14368,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14370,
+                  "src": "302:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14367,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "302:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "301:9:68"
+            },
+            "scope": 14381,
+            "src": "260:51:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "28f2642f",
+            "id": 14375,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "snowball",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14371,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "333:2:68"
+            },
+            "returnParameters": {
+              "id": 14374,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14373,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14375,
+                  "src": "359:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14372,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "359:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "358:9:68"
+            },
+            "scope": 14381,
+            "src": "316:52:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "36e9332d",
+            "id": 14380,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "farm",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 14376,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "386:2:68"
+            },
+            "returnParameters": {
+              "id": 14379,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14378,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14380,
+                  "src": "412:7:68",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 14377,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "412:7:68",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "411:9:68"
+            },
+            "scope": 14381,
+            "src": "373:48:68",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 14382,
+        "src": "71:352:68"
+      }
+    ],
+    "src": "46:378:68"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.7.5+commit.eb77ed08.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2020-12-14T17:55:36.392Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

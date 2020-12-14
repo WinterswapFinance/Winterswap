@@ -1829,7 +1829,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-13T09:12:40.569Z",
+  "updatedAt": "2020-12-14T17:55:36.293Z",
   "devdoc": {
     "details": "Extension of {HRC20} that allows token holders to destroy both their own tokens and those that they have an allowance for, in a way that can be recognized off-chain (via event analysis).",
     "kind": "dev",

@@ -2209,7 +2209,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-13T09:12:40.570Z",
+  "updatedAt": "2020-12-14T17:55:36.294Z",
   "devdoc": {
     "details": "Extension of {HRC20} that adds a cap to the supply of tokens.",
     "kind": "dev",

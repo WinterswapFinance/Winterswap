@@ -8920,7 +8920,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-13T09:12:40.539Z",
+  "updatedAt": "2020-12-14T17:55:36.241Z",
   "devdoc": {
     "details": "An HRC20 token owned by another contract, which has minting permissions and can use transferFrom to receive anyone's tokens. This contract is an internal helper for GSNRecipientHRC20Fee, and should not be used outside of this context.",
     "kind": "dev",

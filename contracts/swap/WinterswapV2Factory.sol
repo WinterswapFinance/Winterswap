@@ -4,16 +4,26 @@ pragma solidity ^0.7.0;
 
 import './interfaces/IWinterswapV2Factory.sol';
 import './WinterswapV2Pair.sol';
+import '../wns/IWNS.sol';
 
 contract WinterswapV2Factory is IWinterswapV2Factory {
     address override public feeTo;
     address override public feeToSetter;
 
+    IWNS wns;
+
+    address router;
+
     mapping(address => mapping(address => address)) override public getPair;
     address[] override public allPairs;
 
-    constructor(address _feeToSetter) {
+    constructor(address _feeToSetter, IWNS _wns) {
         feeToSetter = _feeToSetter;
+        wns = _wns;
+    }
+
+    function init() external{
+        router = wns.router();
     }
 
     function allPairsLength() override external view returns (uint) {
@@ -30,7 +40,7 @@ contract WinterswapV2Factory is IWinterswapV2Factory {
         assembly {
             pair := create2(0, add(bytecode, 32), mload(bytecode), salt)
         }
-        IWinterswapV2Pair(pair).initialize(token0, token1);
+        IWinterswapV2Pair(pair).initialize(token0, token1, router);
         getPair[token0][token1] = pair;
         getPair[token1][token0] = pair; // populate mapping in the reverse direction
         allPairs.push(pair);

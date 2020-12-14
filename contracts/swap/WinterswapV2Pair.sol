@@ -9,10 +9,15 @@ import './libraries/UQ112x112.sol';
 import '../openzeppelin/token/HRC20/IHRC20.sol';
 import './interfaces/IWinterswapV2Factory.sol';
 import './interfaces/IWinterswapV2Callee.sol';
+import '../wns/IWNS.sol';
 
 contract WinterswapV2Pair is IWinterswapV2Pair, WinterswapV2HRC20 {
     using SafeMathSwap  for uint;
     using UQ112x112 for uint224;
+
+
+    uint256 constant PERMILLE = 1000;
+    uint256 constant SWAP_FEE_PERMILLE = 5;
 
     uint override public constant MINIMUM_LIQUIDITY = 10**3;
     bytes4 private constant SELECTOR = bytes4(keccak256(bytes('transfer(address,uint256)')));
@@ -37,7 +42,15 @@ contract WinterswapV2Pair is IWinterswapV2Pair, WinterswapV2HRC20 {
         unlocked = 1;
     }
 
+    address router;
+
+    modifier onlyRouter() {
+        require(msg.sender == router, 'WinterswapV2: ONLY_ROUTER');
+        _;
+    }
+
     function getReserves() override public view returns (uint112 _reserve0, uint112 _reserve1, uint32 _blockTimestampLast) {
+
         _reserve0 = reserve0;
         _reserve1 = reserve1;
         _blockTimestampLast = blockTimestampLast;
@@ -53,10 +66,11 @@ contract WinterswapV2Pair is IWinterswapV2Pair, WinterswapV2HRC20 {
     }
 
     // called once by the factory at time of deployment
-    function initialize(address _token0, address _token1) override external {
+    function initialize(address _token0, address _token1, address _router) override external {
         require(msg.sender == factory, 'WinterswapV2: FORBIDDEN'); // sufficient check
         token0 = _token0;
         token1 = _token1;
+        router = _router;
     }
 
     // update reserves and, on the first call per block, price accumulators
@@ -75,7 +89,7 @@ contract WinterswapV2Pair is IWinterswapV2Pair, WinterswapV2HRC20 {
         emit Sync(reserve0, reserve1);
     }
 
-    // if fee is on, mint liquidity equivalent to 1/6th of the growth in sqrt(k)
+    // if fee is on, mint liquidity equivalent to 1/3th of the growth in sqrt(k)
     function _mintFee(uint112 _reserve0, uint112 _reserve1) private returns (bool feeOn) {
         address feeTo = IWinterswapV2Factory(factory).feeTo();
         feeOn = feeTo != address(0);
@@ -86,7 +100,7 @@ contract WinterswapV2Pair is IWinterswapV2Pair, WinterswapV2HRC20 {
                 uint rootKLast = MathSwap.sqrt(_kLast);
                 if (rootK > rootKLast) {
                     uint numerator = totalSupply.mul(rootK.sub(rootKLast));
-                    uint denominator = rootK.mul(5).add(rootKLast);
+                    uint denominator = rootK.mul(2).add(rootKLast);//change 5 to 2
                     uint liquidity = numerator / denominator;
                     if (liquidity > 0) _mint(feeTo, liquidity);
                 }
@@ -97,7 +111,7 @@ contract WinterswapV2Pair is IWinterswapV2Pair, WinterswapV2HRC20 {
     }
 
     // this low-level function should be called from a contract which performs important safety checks
-    function mint(address to) override external lock returns (uint liquidity) {
+    function mint(address to) override external lock onlyRouter returns (uint liquidity) {
         (uint112 _reserve0, uint112 _reserve1,) = getReserves(); // gas savings
         uint balance0 = IHRC20(token0).balanceOf(address(this));
         uint balance1 = IHRC20(token1).balanceOf(address(this));
@@ -120,7 +134,7 @@ contract WinterswapV2Pair is IWinterswapV2Pair, WinterswapV2HRC20 {
     }
 
     // this low-level function should be called from a contract which performs important safety checks
-    function burn(address to) override external lock returns (uint amount0, uint amount1) {
+    function burn(address to) override external lock onlyRouter returns (uint amount0, uint amount1) {
         (uint112 _reserve0, uint112 _reserve1,) = getReserves(); // gas savings
         address _token0 = token0;                                // gas savings
         address _token1 = token1;                                // gas savings
@@ -145,7 +159,7 @@ contract WinterswapV2Pair is IWinterswapV2Pair, WinterswapV2HRC20 {
     }
 
     // this low-level function should be called from a contract which performs important safety checks
-    function swap(uint amount0Out, uint amount1Out, address to, bytes calldata data) override external lock {
+    function swap(uint amount0Out, uint amount1Out, address to, bytes calldata data) override external lock onlyRouter{
         require(amount0Out > 0 || amount1Out > 0, 'WinterswapV2: INSUFFICIENT_OUTPUT_AMOUNT');
         (uint112 _reserve0, uint112 _reserve1,) = getReserves(); // gas savings
         require(amount0Out < _reserve0 && amount1Out < _reserve1, 'WinterswapV2: INSUFFICIENT_LIQUIDITY');
@@ -166,14 +180,61 @@ contract WinterswapV2Pair is IWinterswapV2Pair, WinterswapV2HRC20 {
         uint amount1In = balance1 > _reserve1 - amount1Out ? balance1 - (_reserve1 - amount1Out) : 0;
         require(amount0In > 0 || amount1In > 0, 'WinterswapV2: INSUFFICIENT_INPUT_AMOUNT');
         { // scope for reserve{0,1}Adjusted, avoids stack too deep errors
-            uint balance0Adjusted = balance0.mul(1000).sub(amount0In.mul(3));
-            uint balance1Adjusted = balance1.mul(1000).sub(amount1In.mul(3));
-            require(balance0Adjusted.mul(balance1Adjusted) >= uint(_reserve0).mul(_reserve1).mul(1000**2), 'WinterswapV2: K');
+            uint balance0Adjusted = balance0.mul(PERMILLE).sub(amount0In.mul(SWAP_FEE_PERMILLE));
+            uint balance1Adjusted = balance1.mul(PERMILLE).sub(amount1In.mul(SWAP_FEE_PERMILLE));
+            require(balance0Adjusted.mul(balance1Adjusted) >= uint(_reserve0).mul(_reserve1).mul(PERMILLE**2), 'WinterswapV2: K');
         }
 
         _update(balance0, balance1, _reserve0, _reserve1);
         emit Swap(msg.sender, amount0In, amount1In, amount0Out, amount1Out, to);
     }
+
+    function swap_free(uint amount0Out, uint amount1Out, address to, bytes calldata data) override external lock onlyRouter{
+        require(amount0Out > 0 || amount1Out > 0, 'WinterswapV2: INSUFFICIENT_OUTPUT_AMOUNT_FREE');
+        (uint112 _reserve0, uint112 _reserve1,) = getReserves(); // gas savings
+        require(amount0Out < _reserve0 && amount1Out < _reserve1, 'WinterswapV2: INSUFFICIENT_LIQUIDITY_FREE');
+
+        uint balance0;
+        uint balance1;
+        { // scope for _token{0,1}, avoids stack too deep errors
+            address _token0 = token0;
+            address _token1 = token1;
+            require(to != _token0 && to != _token1, 'WinterswapV2: INVALID_TO_FREE');
+            if (amount0Out > 0) _safeTransfer(_token0, to, amount0Out); // optimistically transfer tokens
+            if (amount1Out > 0) _safeTransfer(_token1, to, amount1Out); // optimistically transfer tokens
+            if (data.length > 0) IWinterswapV2Callee(to).winterswapV2Call(msg.sender, amount0Out, amount1Out, data);
+            balance0 = IHRC20(_token0).balanceOf(address(this));
+            balance1 = IHRC20(_token1).balanceOf(address(this));
+        }
+        uint amount0In = balance0 > _reserve0 - amount0Out ? balance0 - (_reserve0 - amount0Out) : 0;
+        uint amount1In = balance1 > _reserve1 - amount1Out ? balance1 - (_reserve1 - amount1Out) : 0;
+        require(amount0In > 0 || amount1In > 0, 'WinterswapV2: INSUFFICIENT_INPUT_AMOUNT_FREE');
+
+        require(balance0.mul(balance1) >= uint(_reserve0).mul(_reserve1), 'WinterswapV2: K_FREE');
+
+
+        _update(balance0, balance1, _reserve0, _reserve1);
+        emit SwapFree(msg.sender, amount0In, amount1In, amount0Out, amount1Out, to);
+    }
+
+
+    function transfer_tx_fee(
+        uint256 amount,
+        address token,
+        address to
+    ) override external lock onlyRouter{
+        if (amount == 0 || token == to) return;
+        (uint112 _reserve0, uint112 _reserve1, ) = getReserves();
+        require(to != token0 && to != token1, 'WinterswapV2 PAIR : INVALID_TO');
+        require(token == token0 || token == token1, 'WinterswapV2 PAIR : INVALID_TOKEN');
+
+        _safeTransfer(token, to, amount);
+        uint256 balance0 = IHRC20(token0).balanceOf(address(this));
+        uint256 balance1 = IHRC20(token1).balanceOf(address(this));
+        _update(balance0, balance1, _reserve0, _reserve1);
+        emit TransferTxFee(token, to , amount);
+    }
+
 
     // force balances to match reserves
     function skim(address to) override external lock {
