@@ -325,30 +325,30 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/token/HRC20/HRC20Pausable.sol",
     "exportedSymbols": {
       "Context": [
-        884
+        1285
       ],
       "HRC20": [
-        5293
+        5694
       ],
       "HRC20Pausable": [
-        5467
+        5868
       ],
       "IHRC20": [
-        5863
+        6264
       ],
       "Pausable": [
-        7696
+        8097
       ],
       "SafeMath": [
-        4037
+        4438
       ]
     },
-    "id": 5468,
+    "id": 5869,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5432,
+        "id": 5833,
         "literals": [
           "solidity",
           "^",
@@ -356,27 +356,27 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "33:23:30"
+        "src": "33:23:31"
       },
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/token/HRC20/HRC20.sol",
         "file": "./HRC20.sol",
-        "id": 5433,
+        "id": 5834,
         "nodeType": "ImportDirective",
-        "scope": 5468,
-        "sourceUnit": 5294,
-        "src": "58:21:30",
+        "scope": 5869,
+        "sourceUnit": 5695,
+        "src": "58:21:31",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/utils/Pausable.sol",
         "file": "../../utils/Pausable.sol",
-        "id": 5434,
+        "id": 5835,
         "nodeType": "ImportDirective",
-        "scope": 5468,
-        "sourceUnit": 7697,
-        "src": "80:34:30",
+        "scope": 5869,
+        "sourceUnit": 8098,
+        "src": "80:34:31",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -385,105 +385,105 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 5436,
+              "id": 5837,
               "name": "HRC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5293,
-              "src": "421:5:30",
+              "referencedDeclaration": 5694,
+              "src": "421:5:31",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_HRC20_$5293",
+                "typeIdentifier": "t_contract$_HRC20_$5694",
                 "typeString": "contract HRC20"
               }
             },
-            "id": 5437,
+            "id": 5838,
             "nodeType": "InheritanceSpecifier",
-            "src": "421:5:30"
+            "src": "421:5:31"
           },
           {
             "baseName": {
-              "id": 5438,
+              "id": 5839,
               "name": "Pausable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7696,
-              "src": "428:8:30",
+              "referencedDeclaration": 8097,
+              "src": "428:8:31",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Pausable_$7696",
+                "typeIdentifier": "t_contract$_Pausable_$8097",
                 "typeString": "contract Pausable"
               }
             },
-            "id": 5439,
+            "id": 5840,
             "nodeType": "InheritanceSpecifier",
-            "src": "428:8:30"
+            "src": "428:8:31"
           }
         ],
         "contractDependencies": [
-          884,
-          5293,
-          5863,
-          7696
+          1285,
+          5694,
+          6264,
+          8097
         ],
         "contractKind": "contract",
         "documentation": {
-          "id": 5435,
+          "id": 5836,
           "nodeType": "StructuredDocumentation",
-          "src": "116:269:30",
+          "src": "116:269:31",
           "text": " @dev HRC20 token with pausable token transfers, minting and burning.\n Useful for scenarios such as preventing trades until the end of an evaluation\n period, or having an emergency switch for freezing all token transfers in the\n event of a large bug."
         },
         "fullyImplemented": false,
-        "id": 5467,
+        "id": 5868,
         "linearizedBaseContracts": [
-          5467,
-          7696,
-          5293,
-          5863,
-          884
+          5868,
+          8097,
+          5694,
+          6264,
+          1285
         ],
         "name": "HRC20Pausable",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "baseFunctions": [
-              5292
+              5693
             ],
             "body": {
-              "id": 5465,
+              "id": 5866,
               "nodeType": "Block",
-              "src": "680:136:30",
+              "src": "680:136:31",
               "statements": [
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 5453,
+                        "id": 5854,
                         "name": "from",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5442,
-                        "src": "717:4:30",
+                        "referencedDeclaration": 5843,
+                        "src": "717:4:31",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         }
                       },
                       {
-                        "id": 5454,
+                        "id": 5855,
                         "name": "to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5444,
-                        "src": "723:2:30",
+                        "referencedDeclaration": 5845,
+                        "src": "723:2:31",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         }
                       },
                       {
-                        "id": 5455,
+                        "id": 5856,
                         "name": "amount",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5446,
-                        "src": "727:6:30",
+                        "referencedDeclaration": 5847,
+                        "src": "727:6:31",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -506,32 +506,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 5450,
+                        "id": 5851,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": -25,
-                        "src": "690:5:30",
+                        "src": "690:5:31",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_HRC20Pausable_$5467",
+                          "typeIdentifier": "t_super$_HRC20Pausable_$5868",
                           "typeString": "contract super HRC20Pausable"
                         }
                       },
-                      "id": 5452,
+                      "id": 5853,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_beforeTokenTransfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 5292,
-                      "src": "690:26:30",
+                      "referencedDeclaration": 5693,
+                      "src": "690:26:31",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,address,uint256)"
                       }
                     },
-                    "id": 5456,
+                    "id": 5857,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -539,22 +539,22 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "690:44:30",
+                    "src": "690:44:31",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 5457,
+                  "id": 5858,
                   "nodeType": "ExpressionStatement",
-                  "src": "690:44:30"
+                  "src": "690:44:31"
                 },
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 5461,
+                        "id": 5862,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -562,23 +562,23 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "753:9:30",
+                        "src": "753:9:31",
                         "subExpression": {
                           "arguments": [],
                           "expression": {
                             "argumentTypes": [],
-                            "id": 5459,
+                            "id": 5860,
                             "name": "paused",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7642,
-                            "src": "754:6:30",
+                            "referencedDeclaration": 8043,
+                            "src": "754:6:31",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                               "typeString": "function () view returns (bool)"
                             }
                           },
-                          "id": 5460,
+                          "id": 5861,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -586,7 +586,7 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "754:8:30",
+                          "src": "754:8:31",
                           "tryCall": false,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -600,14 +600,14 @@
                       },
                       {
                         "hexValue": "48524332305061757361626c653a20746f6b656e207472616e73666572207768696c6520706175736564",
-                        "id": 5462,
+                        "id": 5863,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "764:44:30",
+                        "src": "764:44:31",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_90bd744ed40087bcb5d1c0dbc7cd884c9405d3178346e8977b2c57a49d849233",
                           "typeString": "literal_string \"HRC20Pausable: token transfer while paused\""
@@ -626,7 +626,7 @@
                           "typeString": "literal_string \"HRC20Pausable: token transfer while paused\""
                         }
                       ],
-                      "id": 5458,
+                      "id": 5859,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -634,13 +634,13 @@
                         -18
                       ],
                       "referencedDeclaration": -18,
-                      "src": "745:7:30",
+                      "src": "745:7:31",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 5463,
+                    "id": 5864,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -648,49 +648,49 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "745:64:30",
+                    "src": "745:64:31",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 5464,
+                  "id": 5865,
                   "nodeType": "ExpressionStatement",
-                  "src": "745:64:30"
+                  "src": "745:64:31"
                 }
               ]
             },
             "documentation": {
-              "id": 5440,
+              "id": 5841,
               "nodeType": "StructuredDocumentation",
-              "src": "443:134:30",
+              "src": "443:134:31",
               "text": " @dev See {HRC20-_beforeTokenTransfer}.\n Requirements:\n - the contract must not be paused."
             },
-            "id": 5466,
+            "id": 5867,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_beforeTokenTransfer",
             "nodeType": "FunctionDefinition",
             "overrides": {
-              "id": 5448,
+              "id": 5849,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
-              "src": "671:8:30"
+              "src": "671:8:31"
             },
             "parameters": {
-              "id": 5447,
+              "id": 5848,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5442,
+                  "id": 5843,
                   "mutability": "mutable",
                   "name": "from",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5466,
-                  "src": "612:12:30",
+                  "scope": 5867,
+                  "src": "612:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -698,10 +698,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5441,
+                    "id": 5842,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "612:7:30",
+                    "src": "612:7:31",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -712,12 +712,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5444,
+                  "id": 5845,
                   "mutability": "mutable",
                   "name": "to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5466,
-                  "src": "626:10:30",
+                  "scope": 5867,
+                  "src": "626:10:31",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -725,10 +725,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5443,
+                    "id": 5844,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "626:7:30",
+                    "src": "626:7:31",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -739,12 +739,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5446,
+                  "id": 5847,
                   "mutability": "mutable",
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5466,
-                  "src": "638:14:30",
+                  "scope": 5867,
+                  "src": "638:14:31",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -752,10 +752,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5445,
+                    "id": 5846,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "638:7:30",
+                    "src": "638:7:31",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -764,55 +764,55 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "611:42:30"
+              "src": "611:42:31"
             },
             "returnParameters": {
-              "id": 5449,
+              "id": 5850,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "680:0:30"
+              "src": "680:0:31"
             },
-            "scope": 5467,
-            "src": "582:234:30",
+            "scope": 5868,
+            "src": "582:234:31",
             "stateMutability": "nonpayable",
             "virtual": true,
             "visibility": "internal"
           }
         ],
-        "scope": 5468,
-        "src": "386:432:30"
+        "scope": 5869,
+        "src": "386:432:31"
       }
     ],
-    "src": "33:786:30"
+    "src": "33:786:31"
   },
   "legacyAST": {
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/token/HRC20/HRC20Pausable.sol",
     "exportedSymbols": {
       "Context": [
-        884
+        1285
       ],
       "HRC20": [
-        5293
+        5694
       ],
       "HRC20Pausable": [
-        5467
+        5868
       ],
       "IHRC20": [
-        5863
+        6264
       ],
       "Pausable": [
-        7696
+        8097
       ],
       "SafeMath": [
-        4037
+        4438
       ]
     },
-    "id": 5468,
+    "id": 5869,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 5432,
+        "id": 5833,
         "literals": [
           "solidity",
           "^",
@@ -820,27 +820,27 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "33:23:30"
+        "src": "33:23:31"
       },
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/token/HRC20/HRC20.sol",
         "file": "./HRC20.sol",
-        "id": 5433,
+        "id": 5834,
         "nodeType": "ImportDirective",
-        "scope": 5468,
-        "sourceUnit": 5294,
-        "src": "58:21:30",
+        "scope": 5869,
+        "sourceUnit": 5695,
+        "src": "58:21:31",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/utils/Pausable.sol",
         "file": "../../utils/Pausable.sol",
-        "id": 5434,
+        "id": 5835,
         "nodeType": "ImportDirective",
-        "scope": 5468,
-        "sourceUnit": 7697,
-        "src": "80:34:30",
+        "scope": 5869,
+        "sourceUnit": 8098,
+        "src": "80:34:31",
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -849,105 +849,105 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 5436,
+              "id": 5837,
               "name": "HRC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5293,
-              "src": "421:5:30",
+              "referencedDeclaration": 5694,
+              "src": "421:5:31",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_HRC20_$5293",
+                "typeIdentifier": "t_contract$_HRC20_$5694",
                 "typeString": "contract HRC20"
               }
             },
-            "id": 5437,
+            "id": 5838,
             "nodeType": "InheritanceSpecifier",
-            "src": "421:5:30"
+            "src": "421:5:31"
           },
           {
             "baseName": {
-              "id": 5438,
+              "id": 5839,
               "name": "Pausable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 7696,
-              "src": "428:8:30",
+              "referencedDeclaration": 8097,
+              "src": "428:8:31",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Pausable_$7696",
+                "typeIdentifier": "t_contract$_Pausable_$8097",
                 "typeString": "contract Pausable"
               }
             },
-            "id": 5439,
+            "id": 5840,
             "nodeType": "InheritanceSpecifier",
-            "src": "428:8:30"
+            "src": "428:8:31"
           }
         ],
         "contractDependencies": [
-          884,
-          5293,
-          5863,
-          7696
+          1285,
+          5694,
+          6264,
+          8097
         ],
         "contractKind": "contract",
         "documentation": {
-          "id": 5435,
+          "id": 5836,
           "nodeType": "StructuredDocumentation",
-          "src": "116:269:30",
+          "src": "116:269:31",
           "text": " @dev HRC20 token with pausable token transfers, minting and burning.\n Useful for scenarios such as preventing trades until the end of an evaluation\n period, or having an emergency switch for freezing all token transfers in the\n event of a large bug."
         },
         "fullyImplemented": false,
-        "id": 5467,
+        "id": 5868,
         "linearizedBaseContracts": [
-          5467,
-          7696,
-          5293,
-          5863,
-          884
+          5868,
+          8097,
+          5694,
+          6264,
+          1285
         ],
         "name": "HRC20Pausable",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "baseFunctions": [
-              5292
+              5693
             ],
             "body": {
-              "id": 5465,
+              "id": 5866,
               "nodeType": "Block",
-              "src": "680:136:30",
+              "src": "680:136:31",
               "statements": [
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 5453,
+                        "id": 5854,
                         "name": "from",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5442,
-                        "src": "717:4:30",
+                        "referencedDeclaration": 5843,
+                        "src": "717:4:31",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         }
                       },
                       {
-                        "id": 5454,
+                        "id": 5855,
                         "name": "to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5444,
-                        "src": "723:2:30",
+                        "referencedDeclaration": 5845,
+                        "src": "723:2:31",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         }
                       },
                       {
-                        "id": 5455,
+                        "id": 5856,
                         "name": "amount",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 5446,
-                        "src": "727:6:30",
+                        "referencedDeclaration": 5847,
+                        "src": "727:6:31",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -970,32 +970,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 5450,
+                        "id": 5851,
                         "name": "super",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": -25,
-                        "src": "690:5:30",
+                        "src": "690:5:31",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_super$_HRC20Pausable_$5467",
+                          "typeIdentifier": "t_super$_HRC20Pausable_$5868",
                           "typeString": "contract super HRC20Pausable"
                         }
                       },
-                      "id": 5452,
+                      "id": 5853,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "_beforeTokenTransfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 5292,
-                      "src": "690:26:30",
+                      "referencedDeclaration": 5693,
+                      "src": "690:26:31",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,address,uint256)"
                       }
                     },
-                    "id": 5456,
+                    "id": 5857,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1003,22 +1003,22 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "690:44:30",
+                    "src": "690:44:31",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 5457,
+                  "id": 5858,
                   "nodeType": "ExpressionStatement",
-                  "src": "690:44:30"
+                  "src": "690:44:31"
                 },
                 {
                   "expression": {
                     "arguments": [
                       {
-                        "id": 5461,
+                        "id": 5862,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1026,23 +1026,23 @@
                         "nodeType": "UnaryOperation",
                         "operator": "!",
                         "prefix": true,
-                        "src": "753:9:30",
+                        "src": "753:9:31",
                         "subExpression": {
                           "arguments": [],
                           "expression": {
                             "argumentTypes": [],
-                            "id": 5459,
+                            "id": 5860,
                             "name": "paused",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 7642,
-                            "src": "754:6:30",
+                            "referencedDeclaration": 8043,
+                            "src": "754:6:31",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                               "typeString": "function () view returns (bool)"
                             }
                           },
-                          "id": 5460,
+                          "id": 5861,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1050,7 +1050,7 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "754:8:30",
+                          "src": "754:8:31",
                           "tryCall": false,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -1064,14 +1064,14 @@
                       },
                       {
                         "hexValue": "48524332305061757361626c653a20746f6b656e207472616e73666572207768696c6520706175736564",
-                        "id": 5462,
+                        "id": 5863,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "string",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "764:44:30",
+                        "src": "764:44:31",
                         "typeDescriptions": {
                           "typeIdentifier": "t_stringliteral_90bd744ed40087bcb5d1c0dbc7cd884c9405d3178346e8977b2c57a49d849233",
                           "typeString": "literal_string \"HRC20Pausable: token transfer while paused\""
@@ -1090,7 +1090,7 @@
                           "typeString": "literal_string \"HRC20Pausable: token transfer while paused\""
                         }
                       ],
-                      "id": 5458,
+                      "id": 5859,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -1098,13 +1098,13 @@
                         -18
                       ],
                       "referencedDeclaration": -18,
-                      "src": "745:7:30",
+                      "src": "745:7:31",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 5463,
+                    "id": 5864,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1112,49 +1112,49 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "745:64:30",
+                    "src": "745:64:31",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 5464,
+                  "id": 5865,
                   "nodeType": "ExpressionStatement",
-                  "src": "745:64:30"
+                  "src": "745:64:31"
                 }
               ]
             },
             "documentation": {
-              "id": 5440,
+              "id": 5841,
               "nodeType": "StructuredDocumentation",
-              "src": "443:134:30",
+              "src": "443:134:31",
               "text": " @dev See {HRC20-_beforeTokenTransfer}.\n Requirements:\n - the contract must not be paused."
             },
-            "id": 5466,
+            "id": 5867,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "_beforeTokenTransfer",
             "nodeType": "FunctionDefinition",
             "overrides": {
-              "id": 5448,
+              "id": 5849,
               "nodeType": "OverrideSpecifier",
               "overrides": [],
-              "src": "671:8:30"
+              "src": "671:8:31"
             },
             "parameters": {
-              "id": 5447,
+              "id": 5848,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 5442,
+                  "id": 5843,
                   "mutability": "mutable",
                   "name": "from",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5466,
-                  "src": "612:12:30",
+                  "scope": 5867,
+                  "src": "612:12:31",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1162,10 +1162,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5441,
+                    "id": 5842,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "612:7:30",
+                    "src": "612:7:31",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1176,12 +1176,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5444,
+                  "id": 5845,
                   "mutability": "mutable",
                   "name": "to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5466,
-                  "src": "626:10:30",
+                  "scope": 5867,
+                  "src": "626:10:31",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1189,10 +1189,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 5443,
+                    "id": 5844,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "626:7:30",
+                    "src": "626:7:31",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1203,12 +1203,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 5446,
+                  "id": 5847,
                   "mutability": "mutable",
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 5466,
-                  "src": "638:14:30",
+                  "scope": 5867,
+                  "src": "638:14:31",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1216,10 +1216,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 5445,
+                    "id": 5846,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "638:7:30",
+                    "src": "638:7:31",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1228,26 +1228,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "611:42:30"
+              "src": "611:42:31"
             },
             "returnParameters": {
-              "id": 5449,
+              "id": 5850,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "680:0:30"
+              "src": "680:0:31"
             },
-            "scope": 5467,
-            "src": "582:234:30",
+            "scope": 5868,
+            "src": "582:234:31",
             "stateMutability": "nonpayable",
             "virtual": true,
             "visibility": "internal"
           }
         ],
-        "scope": 5468,
-        "src": "386:432:30"
+        "scope": 5869,
+        "src": "386:432:31"
       }
     ],
-    "src": "33:786:30"
+    "src": "33:786:31"
   },
   "compiler": {
     "name": "solc",
@@ -1255,7 +1255,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-14T17:55:36.294Z",
+  "updatedAt": "2020-12-15T12:01:04.485Z",
   "devdoc": {
     "details": "HRC20 token with pausable token transfers, minting and burning. Useful for scenarios such as preventing trades until the end of an evaluation period, or having an emergency switch for freezing all token transfers in the event of a large bug.",
     "kind": "dev",

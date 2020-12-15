@@ -527,4 +527,8 @@ contract WinterswapV2Router02 is IWinterswapV2Router01 {
     function pairFor(address tokenA, address tokenB) external view override returns (address pair){
         return WinterswapV2Library.pairFor(factory, tokenA, tokenB);
     }
+
+    function pairCodeHash() external pure returns (bytes32){
+        return WinterswapV2Library.pairCodeHash();
+    }
 }

@@ -9,4 +9,5 @@ interface IWNS {
     function snowman() external view returns (address);
     function snowball() external view returns (address);
     function farm() external view returns (address);
+    function lottery() external view returns (address);
 }

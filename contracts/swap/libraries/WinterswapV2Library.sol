@@ -27,8 +27,12 @@ library WinterswapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'6395f42a69484405cd9eb411db8b13030088be632cb4ca733e537b3f9889e4c9' // init code hash
+                pairCodeHash()
         ))));
+    }
+
+    function pairCodeHash() internal pure returns (bytes32){
+        return hex'4421d659392be89878d405a5f25502fcd5da43219b8087d1d54c3aaf9ad8478d';// init code hash
     }
 
     // fetches and sorts the reserves for a pair

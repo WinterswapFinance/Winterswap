@@ -17,13 +17,16 @@ contract WNS is IWNS, Ownable{
     address public override snowman;
     address public override snowball;
     address public override farm;
+    address public override lottery;
 
-    function setAll(address _router, address _swap_factory, address _wht, address _snowman, address _snowball, address _farm) external onlyOwner{
+    function setAll(address _router, address _swap_factory, address _wht,
+        address _snowman, address _snowball, address _farm, address _lottery) external onlyOwner{
         router = _router;
         swap_factory = _swap_factory;
         wht = _wht;
         snowman = _snowman;
         snowball = _snowball;
         farm = _farm;
+        lottery = _lottery;
     }
 }
