@@ -99,7 +99,7 @@ module.exports = {
     huobi_test: {
       network_id: '256', // * for Match any network id
       gas: 8000000,
-      gasPrice: 110000000000,
+      gasPrice: 34000000000,
       provider: () =>
         new HDWalletProvider({
           mnemonic: {
