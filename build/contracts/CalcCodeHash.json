@@ -63,51 +63,51 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/test/CalcCodeHash.sol",
     "exportedSymbols": {
       "CalcCodeHash": [
-        14385
+        14392
       ],
       "IHRC20": [
-        6264
+        6271
       ],
       "IWNS": [
-        14911
+        14918
       ],
       "IWinterswapV2Callee": [
-        12620
+        12627
       ],
       "IWinterswapV2Factory": [
-        12683
+        12690
       ],
       "IWinterswapV2HRC20": [
-        12801
+        12808
       ],
       "IWinterswapV2Pair": [
-        12983
+        12990
       ],
       "MathSwap": [
-        13464
+        13471
       ],
       "SafeMathSwap": [
-        13539
+        13546
       ],
       "UQ112x112": [
-        13743
+        13750
       ],
       "WinterswapV2HRC20": [
-        9398
+        9405
       ],
       "WinterswapV2Library": [
-        14338
+        14345
       ],
       "WinterswapV2Pair": [
-        10782
+        10789
       ]
     },
-    "id": 14386,
+    "id": 14393,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 14340,
+        "id": 14347,
         "literals": [
           "solidity",
           "^",
@@ -120,10 +120,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/swap/WinterswapV2Pair.sol",
         "file": "../swap/WinterswapV2Pair.sol",
-        "id": 14341,
+        "id": 14348,
         "nodeType": "ImportDirective",
-        "scope": 14386,
-        "sourceUnit": 10783,
+        "scope": 14393,
+        "sourceUnit": 10790,
         "src": "58:38:63",
         "symbolAliases": [],
         "unitAlias": ""
@@ -131,10 +131,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/swap/libraries/WinterswapV2Library.sol",
         "file": "../swap/libraries/WinterswapV2Library.sol",
-        "id": 14342,
+        "id": 14349,
         "nodeType": "ImportDirective",
-        "scope": 14386,
-        "sourceUnit": 14339,
+        "scope": 14393,
+        "sourceUnit": 14346,
         "src": "97:51:63",
         "symbolAliases": [],
         "unitAlias": ""
@@ -143,43 +143,43 @@
         "abstract": false,
         "baseContracts": [],
         "contractDependencies": [
-          10782
+          10789
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 14385,
+        "id": 14392,
         "linearizedBaseContracts": [
-          14385
+          14392
         ],
         "name": "CalcCodeHash",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 14345,
+              "id": 14352,
               "nodeType": "Block",
               "src": "191:8:63",
               "statements": []
             },
-            "id": 14346,
+            "id": 14353,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14343,
+              "id": 14350,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "189:2:63"
             },
             "returnParameters": {
-              "id": 14344,
+              "id": 14351,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "191:0:63"
             },
-            "scope": 14385,
+            "scope": 14392,
             "src": "178:21:63",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -187,22 +187,22 @@
           },
           {
             "body": {
-              "id": 14364,
+              "id": 14371,
               "nodeType": "Block",
               "src": "255:212:63",
               "statements": [
                 {
                   "assignments": [
-                    14352
+                    14359
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 14352,
+                      "id": 14359,
                       "mutability": "mutable",
                       "name": "bytecode",
                       "nodeType": "VariableDeclaration",
-                      "scope": 14364,
+                      "scope": 14371,
                       "src": "265:21:63",
                       "stateVariable": false,
                       "storageLocation": "memory",
@@ -211,7 +211,7 @@
                         "typeString": "bytes"
                       },
                       "typeName": {
-                        "id": 14351,
+                        "id": 14358,
                         "name": "bytes",
                         "nodeType": "ElementaryTypeName",
                         "src": "265:5:63",
@@ -223,19 +223,19 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 14357,
+                  "id": 14364,
                   "initialValue": {
                     "expression": {
                       "arguments": [
                         {
-                          "id": 14354,
+                          "id": 14361,
                           "name": "WinterswapV2Pair",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 10782,
+                          "referencedDeclaration": 10789,
                           "src": "294:16:63",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_WinterswapV2Pair_$10782_$",
+                            "typeIdentifier": "t_type$_t_contract$_WinterswapV2Pair_$10789_$",
                             "typeString": "type(contract WinterswapV2Pair)"
                           }
                         }
@@ -243,11 +243,11 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_type$_t_contract$_WinterswapV2Pair_$10782_$",
+                            "typeIdentifier": "t_type$_t_contract$_WinterswapV2Pair_$10789_$",
                             "typeString": "type(contract WinterswapV2Pair)"
                           }
                         ],
-                        "id": 14353,
+                        "id": 14360,
                         "name": "type",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -258,7 +258,7 @@
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 14355,
+                      "id": 14362,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -269,11 +269,11 @@
                       "src": "289:22:63",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_magic_meta_type_t_contract$_WinterswapV2Pair_$10782",
+                        "typeIdentifier": "t_magic_meta_type_t_contract$_WinterswapV2Pair_$10789",
                         "typeString": "type(contract WinterswapV2Pair)"
                       }
                     },
-                    "id": 14356,
+                    "id": 14363,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -291,16 +291,16 @@
                 },
                 {
                   "assignments": [
-                    14359
+                    14366
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 14359,
+                      "id": 14366,
                       "mutability": "mutable",
                       "name": "ret",
                       "nodeType": "VariableDeclaration",
-                      "scope": 14364,
+                      "scope": 14371,
                       "src": "334:11:63",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -309,7 +309,7 @@
                         "typeString": "bytes32"
                       },
                       "typeName": {
-                        "id": 14358,
+                        "id": 14365,
                         "name": "bytes32",
                         "nodeType": "ElementaryTypeName",
                         "src": "334:7:63",
@@ -321,7 +321,7 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 14360,
+                  "id": 14367,
                   "nodeType": "VariableDeclarationStatement",
                   "src": "334:11:63"
                 },
@@ -396,75 +396,75 @@
                   "evmVersion": "istanbul",
                   "externalReferences": [
                     {
-                      "declaration": 14352,
+                      "declaration": 14359,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "398:8:63",
                       "valueSize": 1
                     },
                     {
-                      "declaration": 14352,
+                      "declaration": 14359,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "421:8:63",
                       "valueSize": 1
                     },
                     {
-                      "declaration": 14359,
+                      "declaration": 14366,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "377:3:63",
                       "valueSize": 1
                     }
                   ],
-                  "id": 14361,
+                  "id": 14368,
                   "nodeType": "InlineAssembly",
                   "src": "355:86:63"
                 },
                 {
                   "expression": {
-                    "id": 14362,
+                    "id": 14369,
                     "name": "ret",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 14359,
+                    "referencedDeclaration": 14366,
                     "src": "457:3:63",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 14350,
-                  "id": 14363,
+                  "functionReturnParameters": 14357,
+                  "id": 14370,
                   "nodeType": "Return",
                   "src": "450:10:63"
                 }
               ]
             },
             "functionSelector": "18edaaf2",
-            "id": 14365,
+            "id": 14372,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "codeHash",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14347,
+              "id": 14354,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "222:2:63"
             },
             "returnParameters": {
-              "id": 14350,
+              "id": 14357,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14349,
+                  "id": 14356,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14365,
+                  "scope": 14372,
                   "src": "247:7:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -473,7 +473,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 14348,
+                    "id": 14355,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "247:7:63",
@@ -487,7 +487,7 @@
               ],
               "src": "246:9:63"
             },
-            "scope": 14385,
+            "scope": 14392,
             "src": "205:262:63",
             "stateMutability": "pure",
             "virtual": false,
@@ -495,7 +495,7 @@
           },
           {
             "body": {
-              "id": 14383,
+              "id": 14390,
               "nodeType": "Block",
               "src": "570:74:63",
               "statements": [
@@ -503,11 +503,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 14378,
+                        "id": 14385,
                         "name": "factory",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14367,
+                        "referencedDeclaration": 14374,
                         "src": "615:7:63",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -515,11 +515,11 @@
                         }
                       },
                       {
-                        "id": 14379,
+                        "id": 14386,
                         "name": "tokenA",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14369,
+                        "referencedDeclaration": 14376,
                         "src": "623:6:63",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -527,11 +527,11 @@
                         }
                       },
                       {
-                        "id": 14380,
+                        "id": 14387,
                         "name": "tokenB",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14371,
+                        "referencedDeclaration": 14378,
                         "src": "630:6:63",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -555,32 +555,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 14376,
+                        "id": 14383,
                         "name": "WinterswapV2Library",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14338,
+                        "referencedDeclaration": 14345,
                         "src": "587:19:63",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_WinterswapV2Library_$14338_$",
+                          "typeIdentifier": "t_type$_t_contract$_WinterswapV2Library_$14345_$",
                           "typeString": "type(library WinterswapV2Library)"
                         }
                       },
-                      "id": 14377,
+                      "id": 14384,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "pairFor",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13846,
+                      "referencedDeclaration": 13853,
                       "src": "587:27:63",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_address_$_t_address_$_t_address_$returns$_t_address_$",
                         "typeString": "function (address,address,address) pure returns (address)"
                       }
                     },
-                    "id": 14381,
+                    "id": 14388,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -595,31 +595,31 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 14375,
-                  "id": 14382,
+                  "functionReturnParameters": 14382,
+                  "id": 14389,
                   "nodeType": "Return",
                   "src": "580:57:63"
                 }
               ]
             },
             "functionSelector": "6d91c0e2",
-            "id": 14384,
+            "id": 14391,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "pairFor",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14372,
+              "id": 14379,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14367,
+                  "id": 14374,
                   "mutability": "mutable",
                   "name": "factory",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14384,
+                  "scope": 14391,
                   "src": "490:15:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -628,7 +628,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14366,
+                    "id": 14373,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "490:7:63",
@@ -642,11 +642,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14369,
+                  "id": 14376,
                   "mutability": "mutable",
                   "name": "tokenA",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14384,
+                  "scope": 14391,
                   "src": "507:14:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -655,7 +655,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14368,
+                    "id": 14375,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "507:7:63",
@@ -669,11 +669,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14371,
+                  "id": 14378,
                   "mutability": "mutable",
                   "name": "tokenB",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14384,
+                  "scope": 14391,
                   "src": "523:14:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -682,7 +682,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14370,
+                    "id": 14377,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "523:7:63",
@@ -698,16 +698,16 @@
               "src": "489:49:63"
             },
             "returnParameters": {
-              "id": 14375,
+              "id": 14382,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14374,
+                  "id": 14381,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14384,
+                  "scope": 14391,
                   "src": "562:7:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -716,7 +716,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14373,
+                    "id": 14380,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "562:7:63",
@@ -731,14 +731,14 @@
               ],
               "src": "561:9:63"
             },
-            "scope": 14385,
+            "scope": 14392,
             "src": "473:171:63",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 14386,
+        "scope": 14393,
         "src": "150:496:63"
       }
     ],
@@ -748,51 +748,51 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/test/CalcCodeHash.sol",
     "exportedSymbols": {
       "CalcCodeHash": [
-        14385
+        14392
       ],
       "IHRC20": [
-        6264
+        6271
       ],
       "IWNS": [
-        14911
+        14918
       ],
       "IWinterswapV2Callee": [
-        12620
+        12627
       ],
       "IWinterswapV2Factory": [
-        12683
+        12690
       ],
       "IWinterswapV2HRC20": [
-        12801
+        12808
       ],
       "IWinterswapV2Pair": [
-        12983
+        12990
       ],
       "MathSwap": [
-        13464
+        13471
       ],
       "SafeMathSwap": [
-        13539
+        13546
       ],
       "UQ112x112": [
-        13743
+        13750
       ],
       "WinterswapV2HRC20": [
-        9398
+        9405
       ],
       "WinterswapV2Library": [
-        14338
+        14345
       ],
       "WinterswapV2Pair": [
-        10782
+        10789
       ]
     },
-    "id": 14386,
+    "id": 14393,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 14340,
+        "id": 14347,
         "literals": [
           "solidity",
           "^",
@@ -805,10 +805,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/swap/WinterswapV2Pair.sol",
         "file": "../swap/WinterswapV2Pair.sol",
-        "id": 14341,
+        "id": 14348,
         "nodeType": "ImportDirective",
-        "scope": 14386,
-        "sourceUnit": 10783,
+        "scope": 14393,
+        "sourceUnit": 10790,
         "src": "58:38:63",
         "symbolAliases": [],
         "unitAlias": ""
@@ -816,10 +816,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/swap/libraries/WinterswapV2Library.sol",
         "file": "../swap/libraries/WinterswapV2Library.sol",
-        "id": 14342,
+        "id": 14349,
         "nodeType": "ImportDirective",
-        "scope": 14386,
-        "sourceUnit": 14339,
+        "scope": 14393,
+        "sourceUnit": 14346,
         "src": "97:51:63",
         "symbolAliases": [],
         "unitAlias": ""
@@ -828,43 +828,43 @@
         "abstract": false,
         "baseContracts": [],
         "contractDependencies": [
-          10782
+          10789
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 14385,
+        "id": 14392,
         "linearizedBaseContracts": [
-          14385
+          14392
         ],
         "name": "CalcCodeHash",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 14345,
+              "id": 14352,
               "nodeType": "Block",
               "src": "191:8:63",
               "statements": []
             },
-            "id": 14346,
+            "id": 14353,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14343,
+              "id": 14350,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "189:2:63"
             },
             "returnParameters": {
-              "id": 14344,
+              "id": 14351,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "191:0:63"
             },
-            "scope": 14385,
+            "scope": 14392,
             "src": "178:21:63",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -872,22 +872,22 @@
           },
           {
             "body": {
-              "id": 14364,
+              "id": 14371,
               "nodeType": "Block",
               "src": "255:212:63",
               "statements": [
                 {
                   "assignments": [
-                    14352
+                    14359
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 14352,
+                      "id": 14359,
                       "mutability": "mutable",
                       "name": "bytecode",
                       "nodeType": "VariableDeclaration",
-                      "scope": 14364,
+                      "scope": 14371,
                       "src": "265:21:63",
                       "stateVariable": false,
                       "storageLocation": "memory",
@@ -896,7 +896,7 @@
                         "typeString": "bytes"
                       },
                       "typeName": {
-                        "id": 14351,
+                        "id": 14358,
                         "name": "bytes",
                         "nodeType": "ElementaryTypeName",
                         "src": "265:5:63",
@@ -908,19 +908,19 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 14357,
+                  "id": 14364,
                   "initialValue": {
                     "expression": {
                       "arguments": [
                         {
-                          "id": 14354,
+                          "id": 14361,
                           "name": "WinterswapV2Pair",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 10782,
+                          "referencedDeclaration": 10789,
                           "src": "294:16:63",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_WinterswapV2Pair_$10782_$",
+                            "typeIdentifier": "t_type$_t_contract$_WinterswapV2Pair_$10789_$",
                             "typeString": "type(contract WinterswapV2Pair)"
                           }
                         }
@@ -928,11 +928,11 @@
                       "expression": {
                         "argumentTypes": [
                           {
-                            "typeIdentifier": "t_type$_t_contract$_WinterswapV2Pair_$10782_$",
+                            "typeIdentifier": "t_type$_t_contract$_WinterswapV2Pair_$10789_$",
                             "typeString": "type(contract WinterswapV2Pair)"
                           }
                         ],
-                        "id": 14353,
+                        "id": 14360,
                         "name": "type",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -943,7 +943,7 @@
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 14355,
+                      "id": 14362,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -954,11 +954,11 @@
                       "src": "289:22:63",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_magic_meta_type_t_contract$_WinterswapV2Pair_$10782",
+                        "typeIdentifier": "t_magic_meta_type_t_contract$_WinterswapV2Pair_$10789",
                         "typeString": "type(contract WinterswapV2Pair)"
                       }
                     },
-                    "id": 14356,
+                    "id": 14363,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
@@ -976,16 +976,16 @@
                 },
                 {
                   "assignments": [
-                    14359
+                    14366
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 14359,
+                      "id": 14366,
                       "mutability": "mutable",
                       "name": "ret",
                       "nodeType": "VariableDeclaration",
-                      "scope": 14364,
+                      "scope": 14371,
                       "src": "334:11:63",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -994,7 +994,7 @@
                         "typeString": "bytes32"
                       },
                       "typeName": {
-                        "id": 14358,
+                        "id": 14365,
                         "name": "bytes32",
                         "nodeType": "ElementaryTypeName",
                         "src": "334:7:63",
@@ -1006,7 +1006,7 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 14360,
+                  "id": 14367,
                   "nodeType": "VariableDeclarationStatement",
                   "src": "334:11:63"
                 },
@@ -1081,75 +1081,75 @@
                   "evmVersion": "istanbul",
                   "externalReferences": [
                     {
-                      "declaration": 14352,
+                      "declaration": 14359,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "398:8:63",
                       "valueSize": 1
                     },
                     {
-                      "declaration": 14352,
+                      "declaration": 14359,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "421:8:63",
                       "valueSize": 1
                     },
                     {
-                      "declaration": 14359,
+                      "declaration": 14366,
                       "isOffset": false,
                       "isSlot": false,
                       "src": "377:3:63",
                       "valueSize": 1
                     }
                   ],
-                  "id": 14361,
+                  "id": 14368,
                   "nodeType": "InlineAssembly",
                   "src": "355:86:63"
                 },
                 {
                   "expression": {
-                    "id": 14362,
+                    "id": 14369,
                     "name": "ret",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 14359,
+                    "referencedDeclaration": 14366,
                     "src": "457:3:63",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 14350,
-                  "id": 14363,
+                  "functionReturnParameters": 14357,
+                  "id": 14370,
                   "nodeType": "Return",
                   "src": "450:10:63"
                 }
               ]
             },
             "functionSelector": "18edaaf2",
-            "id": 14365,
+            "id": 14372,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "codeHash",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14347,
+              "id": 14354,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "222:2:63"
             },
             "returnParameters": {
-              "id": 14350,
+              "id": 14357,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14349,
+                  "id": 14356,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14365,
+                  "scope": 14372,
                   "src": "247:7:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1158,7 +1158,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 14348,
+                    "id": 14355,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "247:7:63",
@@ -1172,7 +1172,7 @@
               ],
               "src": "246:9:63"
             },
-            "scope": 14385,
+            "scope": 14392,
             "src": "205:262:63",
             "stateMutability": "pure",
             "virtual": false,
@@ -1180,7 +1180,7 @@
           },
           {
             "body": {
-              "id": 14383,
+              "id": 14390,
               "nodeType": "Block",
               "src": "570:74:63",
               "statements": [
@@ -1188,11 +1188,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 14378,
+                        "id": 14385,
                         "name": "factory",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14367,
+                        "referencedDeclaration": 14374,
                         "src": "615:7:63",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -1200,11 +1200,11 @@
                         }
                       },
                       {
-                        "id": 14379,
+                        "id": 14386,
                         "name": "tokenA",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14369,
+                        "referencedDeclaration": 14376,
                         "src": "623:6:63",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -1212,11 +1212,11 @@
                         }
                       },
                       {
-                        "id": 14380,
+                        "id": 14387,
                         "name": "tokenB",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14371,
+                        "referencedDeclaration": 14378,
                         "src": "630:6:63",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -1240,32 +1240,32 @@
                         }
                       ],
                       "expression": {
-                        "id": 14376,
+                        "id": 14383,
                         "name": "WinterswapV2Library",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14338,
+                        "referencedDeclaration": 14345,
                         "src": "587:19:63",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_WinterswapV2Library_$14338_$",
+                          "typeIdentifier": "t_type$_t_contract$_WinterswapV2Library_$14345_$",
                           "typeString": "type(library WinterswapV2Library)"
                         }
                       },
-                      "id": 14377,
+                      "id": 14384,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "pairFor",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13846,
+                      "referencedDeclaration": 13853,
                       "src": "587:27:63",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_address_$_t_address_$_t_address_$returns$_t_address_$",
                         "typeString": "function (address,address,address) pure returns (address)"
                       }
                     },
-                    "id": 14381,
+                    "id": 14388,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1280,31 +1280,31 @@
                       "typeString": "address"
                     }
                   },
-                  "functionReturnParameters": 14375,
-                  "id": 14382,
+                  "functionReturnParameters": 14382,
+                  "id": 14389,
                   "nodeType": "Return",
                   "src": "580:57:63"
                 }
               ]
             },
             "functionSelector": "6d91c0e2",
-            "id": 14384,
+            "id": 14391,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "pairFor",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14372,
+              "id": 14379,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14367,
+                  "id": 14374,
                   "mutability": "mutable",
                   "name": "factory",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14384,
+                  "scope": 14391,
                   "src": "490:15:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1313,7 +1313,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14366,
+                    "id": 14373,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "490:7:63",
@@ -1327,11 +1327,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14369,
+                  "id": 14376,
                   "mutability": "mutable",
                   "name": "tokenA",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14384,
+                  "scope": 14391,
                   "src": "507:14:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1340,7 +1340,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14368,
+                    "id": 14375,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "507:7:63",
@@ -1354,11 +1354,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14371,
+                  "id": 14378,
                   "mutability": "mutable",
                   "name": "tokenB",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14384,
+                  "scope": 14391,
                   "src": "523:14:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1367,7 +1367,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14370,
+                    "id": 14377,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "523:7:63",
@@ -1383,16 +1383,16 @@
               "src": "489:49:63"
             },
             "returnParameters": {
-              "id": 14375,
+              "id": 14382,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14374,
+                  "id": 14381,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14384,
+                  "scope": 14391,
                   "src": "562:7:63",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1401,7 +1401,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14373,
+                    "id": 14380,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "562:7:63",
@@ -1416,14 +1416,14 @@
               ],
               "src": "561:9:63"
             },
-            "scope": 14385,
+            "scope": 14392,
             "src": "473:171:63",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 14386,
+        "scope": 14393,
         "src": "150:496:63"
       }
     ],
@@ -1435,7 +1435,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-15T12:01:04.542Z",
+  "updatedAt": "2020-12-21T11:58:19.346Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

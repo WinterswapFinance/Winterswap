@@ -107,15 +107,15 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/IWNS.sol",
     "exportedSymbols": {
       "IWNS": [
-        14911
+        14918
       ]
     },
-    "id": 14912,
+    "id": 14919,
     "license": "GPL-3.0-or-later",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 14875,
+        "id": 14882,
         "literals": [
           "solidity",
           "^",
@@ -131,38 +131,38 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 14911,
+        "id": 14918,
         "linearizedBaseContracts": [
-          14911
+          14918
         ],
         "name": "IWNS",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "f887ea40",
-            "id": 14880,
+            "id": 14887,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "router",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14876,
+              "id": 14883,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "107:2:69"
             },
             "returnParameters": {
-              "id": 14879,
+              "id": 14886,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14878,
+                  "id": 14885,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14880,
+                  "scope": 14887,
                   "src": "133:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -171,7 +171,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14877,
+                    "id": 14884,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "133:7:69",
@@ -186,7 +186,7 @@
               ],
               "src": "132:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "92:50:69",
             "stateMutability": "view",
             "virtual": false,
@@ -194,29 +194,29 @@
           },
           {
             "functionSelector": "cad631b5",
-            "id": 14885,
+            "id": 14892,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "swap_factory",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14881,
+              "id": 14888,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "168:2:69"
             },
             "returnParameters": {
-              "id": 14884,
+              "id": 14891,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14883,
+                  "id": 14890,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14885,
+                  "scope": 14892,
                   "src": "194:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -225,7 +225,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14882,
+                    "id": 14889,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "194:7:69",
@@ -240,7 +240,7 @@
               ],
               "src": "193:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "147:56:69",
             "stateMutability": "view",
             "virtual": false,
@@ -248,29 +248,29 @@
           },
           {
             "functionSelector": "785f3499",
-            "id": 14890,
+            "id": 14897,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "wht",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14886,
+              "id": 14893,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "220:2:69"
             },
             "returnParameters": {
-              "id": 14889,
+              "id": 14896,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14888,
+                  "id": 14895,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14890,
+                  "scope": 14897,
                   "src": "246:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -279,7 +279,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14887,
+                    "id": 14894,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "246:7:69",
@@ -294,7 +294,7 @@
               ],
               "src": "245:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "208:47:69",
             "stateMutability": "view",
             "virtual": false,
@@ -302,29 +302,29 @@
           },
           {
             "functionSelector": "6b9c1856",
-            "id": 14895,
+            "id": 14902,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "snowman",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14891,
+              "id": 14898,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "276:2:69"
             },
             "returnParameters": {
-              "id": 14894,
+              "id": 14901,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14893,
+                  "id": 14900,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14895,
+                  "scope": 14902,
                   "src": "302:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -333,7 +333,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14892,
+                    "id": 14899,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "302:7:69",
@@ -348,7 +348,7 @@
               ],
               "src": "301:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "260:51:69",
             "stateMutability": "view",
             "virtual": false,
@@ -356,29 +356,29 @@
           },
           {
             "functionSelector": "28f2642f",
-            "id": 14900,
+            "id": 14907,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "snowball",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14896,
+              "id": 14903,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "333:2:69"
             },
             "returnParameters": {
-              "id": 14899,
+              "id": 14906,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14898,
+                  "id": 14905,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14900,
+                  "scope": 14907,
                   "src": "359:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -387,7 +387,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14897,
+                    "id": 14904,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "359:7:69",
@@ -402,7 +402,7 @@
               ],
               "src": "358:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "316:52:69",
             "stateMutability": "view",
             "virtual": false,
@@ -410,29 +410,29 @@
           },
           {
             "functionSelector": "36e9332d",
-            "id": 14905,
+            "id": 14912,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "farm",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14901,
+              "id": 14908,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "386:2:69"
             },
             "returnParameters": {
-              "id": 14904,
+              "id": 14911,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14903,
+                  "id": 14910,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14905,
+                  "scope": 14912,
                   "src": "412:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -441,7 +441,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14902,
+                    "id": 14909,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "412:7:69",
@@ -456,7 +456,7 @@
               ],
               "src": "411:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "373:48:69",
             "stateMutability": "view",
             "virtual": false,
@@ -464,29 +464,29 @@
           },
           {
             "functionSelector": "ba13a572",
-            "id": 14910,
+            "id": 14917,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "lottery",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14906,
+              "id": 14913,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "442:2:69"
             },
             "returnParameters": {
-              "id": 14909,
+              "id": 14916,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14908,
+                  "id": 14915,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14910,
+                  "scope": 14917,
                   "src": "468:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -495,7 +495,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14907,
+                    "id": 14914,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "468:7:69",
@@ -510,14 +510,14 @@
               ],
               "src": "467:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "426:51:69",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 14912,
+        "scope": 14919,
         "src": "71:408:69"
       }
     ],
@@ -527,15 +527,15 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/IWNS.sol",
     "exportedSymbols": {
       "IWNS": [
-        14911
+        14918
       ]
     },
-    "id": 14912,
+    "id": 14919,
     "license": "GPL-3.0-or-later",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 14875,
+        "id": 14882,
         "literals": [
           "solidity",
           "^",
@@ -551,38 +551,38 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 14911,
+        "id": 14918,
         "linearizedBaseContracts": [
-          14911
+          14918
         ],
         "name": "IWNS",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "f887ea40",
-            "id": 14880,
+            "id": 14887,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "router",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14876,
+              "id": 14883,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "107:2:69"
             },
             "returnParameters": {
-              "id": 14879,
+              "id": 14886,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14878,
+                  "id": 14885,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14880,
+                  "scope": 14887,
                   "src": "133:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -591,7 +591,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14877,
+                    "id": 14884,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "133:7:69",
@@ -606,7 +606,7 @@
               ],
               "src": "132:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "92:50:69",
             "stateMutability": "view",
             "virtual": false,
@@ -614,29 +614,29 @@
           },
           {
             "functionSelector": "cad631b5",
-            "id": 14885,
+            "id": 14892,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "swap_factory",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14881,
+              "id": 14888,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "168:2:69"
             },
             "returnParameters": {
-              "id": 14884,
+              "id": 14891,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14883,
+                  "id": 14890,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14885,
+                  "scope": 14892,
                   "src": "194:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -645,7 +645,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14882,
+                    "id": 14889,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "194:7:69",
@@ -660,7 +660,7 @@
               ],
               "src": "193:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "147:56:69",
             "stateMutability": "view",
             "virtual": false,
@@ -668,29 +668,29 @@
           },
           {
             "functionSelector": "785f3499",
-            "id": 14890,
+            "id": 14897,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "wht",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14886,
+              "id": 14893,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "220:2:69"
             },
             "returnParameters": {
-              "id": 14889,
+              "id": 14896,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14888,
+                  "id": 14895,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14890,
+                  "scope": 14897,
                   "src": "246:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -699,7 +699,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14887,
+                    "id": 14894,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "246:7:69",
@@ -714,7 +714,7 @@
               ],
               "src": "245:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "208:47:69",
             "stateMutability": "view",
             "virtual": false,
@@ -722,29 +722,29 @@
           },
           {
             "functionSelector": "6b9c1856",
-            "id": 14895,
+            "id": 14902,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "snowman",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14891,
+              "id": 14898,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "276:2:69"
             },
             "returnParameters": {
-              "id": 14894,
+              "id": 14901,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14893,
+                  "id": 14900,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14895,
+                  "scope": 14902,
                   "src": "302:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -753,7 +753,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14892,
+                    "id": 14899,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "302:7:69",
@@ -768,7 +768,7 @@
               ],
               "src": "301:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "260:51:69",
             "stateMutability": "view",
             "virtual": false,
@@ -776,29 +776,29 @@
           },
           {
             "functionSelector": "28f2642f",
-            "id": 14900,
+            "id": 14907,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "snowball",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14896,
+              "id": 14903,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "333:2:69"
             },
             "returnParameters": {
-              "id": 14899,
+              "id": 14906,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14898,
+                  "id": 14905,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14900,
+                  "scope": 14907,
                   "src": "359:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -807,7 +807,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14897,
+                    "id": 14904,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "359:7:69",
@@ -822,7 +822,7 @@
               ],
               "src": "358:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "316:52:69",
             "stateMutability": "view",
             "virtual": false,
@@ -830,29 +830,29 @@
           },
           {
             "functionSelector": "36e9332d",
-            "id": 14905,
+            "id": 14912,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "farm",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14901,
+              "id": 14908,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "386:2:69"
             },
             "returnParameters": {
-              "id": 14904,
+              "id": 14911,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14903,
+                  "id": 14910,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14905,
+                  "scope": 14912,
                   "src": "412:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -861,7 +861,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14902,
+                    "id": 14909,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "412:7:69",
@@ -876,7 +876,7 @@
               ],
               "src": "411:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "373:48:69",
             "stateMutability": "view",
             "virtual": false,
@@ -884,29 +884,29 @@
           },
           {
             "functionSelector": "ba13a572",
-            "id": 14910,
+            "id": 14917,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "lottery",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14906,
+              "id": 14913,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "442:2:69"
             },
             "returnParameters": {
-              "id": 14909,
+              "id": 14916,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14908,
+                  "id": 14915,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14910,
+                  "scope": 14917,
                   "src": "468:7:69",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -915,7 +915,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14907,
+                    "id": 14914,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "468:7:69",
@@ -930,14 +930,14 @@
               ],
               "src": "467:9:69"
             },
-            "scope": 14911,
+            "scope": 14918,
             "src": "426:51:69",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 14912,
+        "scope": 14919,
         "src": "71:408:69"
       }
     ],
@@ -949,7 +949,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-15T12:01:04.547Z",
+  "updatedAt": "2020-12-21T11:58:19.356Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

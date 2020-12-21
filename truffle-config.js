@@ -30,6 +30,7 @@ const path = require('path')
 
 const development_mnemonic = fs.readFileSync(path.resolve('./development.mnemonic')).toString().trim();
 const huobi_test_mnemonic = fs.readFileSync(path.resolve('./huobi_test.mnemonic')).toString().trim();
+const huobi_test = fs.readFileSync(path.resolve('./huobi.mnemonic')).toString().trim();
 
 module.exports = {
   /**
@@ -99,13 +100,29 @@ module.exports = {
     huobi_test: {
       network_id: '256', // * for Match any network id
       gas: 8000000,
-      gasPrice: 34000000000,
+      gasPrice: 10000000000,
       provider: () =>
         new HDWalletProvider({
           mnemonic: {
             phrase: huobi_test_mnemonic
           },
           providerOrUrl: 'https://http-testnet.hecochain.com',
+          numberOfAddresses: 10,
+          shareNonce: true,
+          derivationPath: 'm/44\'/60\'/0\'/0/'
+        }),
+    },
+
+    huobi: {
+      network_id: '128', // * for Match any network id
+      gas: 8000000,
+      gasPrice: 10000000000,
+      provider: () =>
+        new HDWalletProvider({
+          mnemonic: {
+            phrase: huobi_test
+          },
+          providerOrUrl: 'https://http-mainnet.hecochain.com',
           numberOfAddresses: 10,
           shareNonce: true,
           derivationPath: 'm/44\'/60\'/0\'/0/'

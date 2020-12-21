@@ -55,17 +55,17 @@ module.exports = async function (deployer, network, accounts) {
   const farm = await Farm.deployed();
   console.log('farm address :                ' + farm.address);
 
-  console.log('deploying Lottery');
-  await deployer.deploy(Lottery,
-    global.winterswap.config.lottery_startBlock,
-    global.winterswap.config.lottery_period,
-    global.winterswap.config.lottery_extraBonusEndBlock,
-    global.winterswap.config.lottery_price,
-    global.winterswap.config.lottery_periodBonus,
-    snowball.address,
-    FROM_DEPLOYER);
-  const lottery = await Lottery.deployed();
-  console.log('lottery address :                ' + lottery.address);
+  // console.log('deploying Lottery');
+  // await deployer.deploy(Lottery,
+  //   global.winterswap.config.lottery_startBlock,
+  //   global.winterswap.config.lottery_period,
+  //   global.winterswap.config.lottery_extraBonusEndBlock,
+  //   global.winterswap.config.lottery_price,
+  //   global.winterswap.config.lottery_periodBonus,
+  //   snowball.address,
+  //   FROM_DEPLOYER);
+  // const lottery = await Lottery.deployed();
+  // console.log('lottery address :                ' + lottery.address);
 
   //=======init
 
@@ -73,7 +73,7 @@ module.exports = async function (deployer, network, accounts) {
   await factory.setFeeTo(devaddr,{from: admin});
   console.log('factory feeTo address:                   ' + await factory.feeTo());
 
-  await wns.setAll(router.address, factory.address, wht.address, snowman.address, snowball.address, farm.address, lottery.address, FROM_ADMIN);
+  await wns.setAll(router.address, factory.address, wht.address, snowman.address, snowball.address, farm.address, global.winterswap.emptyAddress/*lottery.address*/, FROM_ADMIN);
 
   await router.init(FROM_DEPLOYER);
   await factory.init(FROM_DEPLOYER);
@@ -90,6 +90,6 @@ module.exports = async function (deployer, network, accounts) {
   console.log('Snowball address :                           ' + snowball.address);
   console.log('Snowman address :                            ' + snowman.address);
   console.log('Farm address :                               ' + farm.address);
-  console.log('Lottery address :                            ' + lottery.address);
+  //console.log('Lottery address :                            ' + lottery.address);
 
 };

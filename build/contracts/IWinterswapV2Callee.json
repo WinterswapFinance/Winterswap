@@ -44,15 +44,15 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/swap/interfaces/IWinterswapV2Callee.sol",
     "exportedSymbols": {
       "IWinterswapV2Callee": [
-        12620
+        12627
       ]
     },
-    "id": 12621,
+    "id": 12628,
     "license": "GPL-3.0-or-later",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 12608,
+        "id": 12615,
         "literals": [
           "solidity",
           "^",
@@ -68,32 +68,32 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 12620,
+        "id": 12627,
         "linearizedBaseContracts": [
-          12620
+          12627
         ],
         "name": "IWinterswapV2Callee",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "b091493e",
-            "id": 12619,
+            "id": 12626,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "winterswapV2Call",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12617,
+              "id": 12624,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12610,
+                  "id": 12617,
                   "mutability": "mutable",
                   "name": "sender",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12619,
+                  "scope": 12626,
                   "src": "133:14:52",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -102,7 +102,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 12609,
+                    "id": 12616,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "133:7:52",
@@ -116,11 +116,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12612,
+                  "id": 12619,
                   "mutability": "mutable",
                   "name": "amount0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12619,
+                  "scope": 12626,
                   "src": "149:12:52",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -129,7 +129,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 12611,
+                    "id": 12618,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "149:4:52",
@@ -142,11 +142,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12614,
+                  "id": 12621,
                   "mutability": "mutable",
                   "name": "amount1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12619,
+                  "scope": 12626,
                   "src": "163:12:52",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -155,7 +155,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 12613,
+                    "id": 12620,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "163:4:52",
@@ -168,11 +168,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12616,
+                  "id": 12623,
                   "mutability": "mutable",
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12619,
+                  "scope": 12626,
                   "src": "177:19:52",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -181,7 +181,7 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 12615,
+                    "id": 12622,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "177:5:52",
@@ -196,19 +196,19 @@
               "src": "132:65:52"
             },
             "returnParameters": {
-              "id": 12618,
+              "id": 12625,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "206:0:52"
             },
-            "scope": 12620,
+            "scope": 12627,
             "src": "107:100:52",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 12621,
+        "scope": 12628,
         "src": "71:138:52"
       }
     ],
@@ -218,15 +218,15 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/swap/interfaces/IWinterswapV2Callee.sol",
     "exportedSymbols": {
       "IWinterswapV2Callee": [
-        12620
+        12627
       ]
     },
-    "id": 12621,
+    "id": 12628,
     "license": "GPL-3.0-or-later",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 12608,
+        "id": 12615,
         "literals": [
           "solidity",
           "^",
@@ -242,32 +242,32 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 12620,
+        "id": 12627,
         "linearizedBaseContracts": [
-          12620
+          12627
         ],
         "name": "IWinterswapV2Callee",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "b091493e",
-            "id": 12619,
+            "id": 12626,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "winterswapV2Call",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 12617,
+              "id": 12624,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 12610,
+                  "id": 12617,
                   "mutability": "mutable",
                   "name": "sender",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12619,
+                  "scope": 12626,
                   "src": "133:14:52",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -276,7 +276,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 12609,
+                    "id": 12616,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "133:7:52",
@@ -290,11 +290,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12612,
+                  "id": 12619,
                   "mutability": "mutable",
                   "name": "amount0",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12619,
+                  "scope": 12626,
                   "src": "149:12:52",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -303,7 +303,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 12611,
+                    "id": 12618,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "149:4:52",
@@ -316,11 +316,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12614,
+                  "id": 12621,
                   "mutability": "mutable",
                   "name": "amount1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12619,
+                  "scope": 12626,
                   "src": "163:12:52",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -329,7 +329,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 12613,
+                    "id": 12620,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "163:4:52",
@@ -342,11 +342,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12616,
+                  "id": 12623,
                   "mutability": "mutable",
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 12619,
+                  "scope": 12626,
                   "src": "177:19:52",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -355,7 +355,7 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 12615,
+                    "id": 12622,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "177:5:52",
@@ -370,19 +370,19 @@
               "src": "132:65:52"
             },
             "returnParameters": {
-              "id": 12618,
+              "id": 12625,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "206:0:52"
             },
-            "scope": 12620,
+            "scope": 12627,
             "src": "107:100:52",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 12621,
+        "scope": 12628,
         "src": "71:138:52"
       }
     ],
@@ -394,7 +394,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-15T12:01:04.531Z",
+  "updatedAt": "2020-12-21T11:58:19.315Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

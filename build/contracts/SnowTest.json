@@ -356,30 +356,30 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/test/SnowTest.sol",
     "exportedSymbols": {
       "Context": [
-        1285
+        1292
       ],
       "HRC20": [
-        5694
+        5701
       ],
       "IHRC20": [
-        6264
+        6271
       ],
       "Ownable": [
-        2841
+        2848
       ],
       "SafeMath": [
-        4438
+        4445
       ],
       "SnowTest": [
-        14439
+        14446
       ]
     },
-    "id": 14440,
+    "id": 14447,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 14414,
+        "id": 14421,
         "literals": [
           "solidity",
           "^",
@@ -392,10 +392,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/token/HRC20/HRC20.sol",
         "file": "../openzeppelin/token/HRC20/HRC20.sol",
-        "id": 14415,
+        "id": 14422,
         "nodeType": "ImportDirective",
-        "scope": 14440,
-        "sourceUnit": 5695,
+        "scope": 14447,
+        "sourceUnit": 5702,
         "src": "58:47:65",
         "symbolAliases": [],
         "unitAlias": ""
@@ -403,10 +403,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/access/Ownable.sol",
         "file": "../openzeppelin/access/Ownable.sol",
-        "id": 14416,
+        "id": 14423,
         "nodeType": "ImportDirective",
-        "scope": 14440,
-        "sourceUnit": 2842,
+        "scope": 14447,
+        "sourceUnit": 2849,
         "src": "106:44:65",
         "symbolAliases": [],
         "unitAlias": ""
@@ -418,7 +418,7 @@
             "arguments": [
               {
                 "hexValue": "536e6f7754657374",
-                "id": 14418,
+                "id": 14425,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -434,7 +434,7 @@
               },
               {
                 "hexValue": "534e46",
-                "id": 14419,
+                "id": 14426,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -450,59 +450,59 @@
               }
             ],
             "baseName": {
-              "id": 14417,
+              "id": 14424,
               "name": "HRC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5694,
+              "referencedDeclaration": 5701,
               "src": "173:5:65",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_HRC20_$5694",
+                "typeIdentifier": "t_contract$_HRC20_$5701",
                 "typeString": "contract HRC20"
               }
             },
-            "id": 14420,
+            "id": 14427,
             "nodeType": "InheritanceSpecifier",
             "src": "173:24:65"
           },
           {
             "baseName": {
-              "id": 14421,
+              "id": 14428,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2841,
+              "referencedDeclaration": 2848,
               "src": "199:7:65",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$2841",
+                "typeIdentifier": "t_contract$_Ownable_$2848",
                 "typeString": "contract Ownable"
               }
             },
-            "id": 14422,
+            "id": 14429,
             "nodeType": "InheritanceSpecifier",
             "src": "199:7:65"
           }
         ],
         "contractDependencies": [
-          1285,
-          2841,
-          5694,
-          6264
+          1292,
+          2848,
+          5701,
+          6271
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 14439,
+        "id": 14446,
         "linearizedBaseContracts": [
-          14439,
-          2841,
-          5694,
-          6264,
-          1285
+          14446,
+          2848,
+          5701,
+          6271,
+          1292
         ],
         "name": "SnowTest",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 14437,
+              "id": 14444,
               "nodeType": "Block",
               "src": "365:36:65",
               "statements": [
@@ -510,11 +510,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 14433,
+                        "id": 14440,
                         "name": "_to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14425,
+                        "referencedDeclaration": 14432,
                         "src": "381:3:65",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -522,11 +522,11 @@
                         }
                       },
                       {
-                        "id": 14434,
+                        "id": 14441,
                         "name": "_amount",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14427,
+                        "referencedDeclaration": 14434,
                         "src": "386:7:65",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -545,18 +545,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 14432,
+                      "id": 14439,
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5570,
+                      "referencedDeclaration": 5577,
                       "src": "375:5:65",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 14435,
+                    "id": 14442,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -571,31 +571,31 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 14436,
+                  "id": 14443,
                   "nodeType": "ExpressionStatement",
                   "src": "375:19:65"
                 }
               ]
             },
             "documentation": {
-              "id": 14423,
+              "id": 14430,
               "nodeType": "StructuredDocumentation",
               "src": "213:86:65",
               "text": "@notice Creates `_amount` token to `_to`. Must only be called by the owner (Farm)."
             },
             "functionSelector": "40c10f19",
-            "id": 14438,
+            "id": 14445,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "id": 14430,
+                "id": 14437,
                 "modifierName": {
-                  "id": 14429,
+                  "id": 14436,
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2790,
+                  "referencedDeclaration": 2797,
                   "src": "355:9:65",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -609,16 +609,16 @@
             "name": "mint",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14428,
+              "id": 14435,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14425,
+                  "id": 14432,
                   "mutability": "mutable",
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14438,
+                  "scope": 14445,
                   "src": "318:11:65",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -627,7 +627,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14424,
+                    "id": 14431,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "318:7:65",
@@ -641,11 +641,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14427,
+                  "id": 14434,
                   "mutability": "mutable",
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14438,
+                  "scope": 14445,
                   "src": "331:15:65",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -654,7 +654,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 14426,
+                    "id": 14433,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "331:7:65",
@@ -669,19 +669,19 @@
               "src": "317:30:65"
             },
             "returnParameters": {
-              "id": 14431,
+              "id": 14438,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "365:0:65"
             },
-            "scope": 14439,
+            "scope": 14446,
             "src": "304:97:65",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 14440,
+        "scope": 14447,
         "src": "152:251:65"
       }
     ],
@@ -691,30 +691,30 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/test/SnowTest.sol",
     "exportedSymbols": {
       "Context": [
-        1285
+        1292
       ],
       "HRC20": [
-        5694
+        5701
       ],
       "IHRC20": [
-        6264
+        6271
       ],
       "Ownable": [
-        2841
+        2848
       ],
       "SafeMath": [
-        4438
+        4445
       ],
       "SnowTest": [
-        14439
+        14446
       ]
     },
-    "id": 14440,
+    "id": 14447,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 14414,
+        "id": 14421,
         "literals": [
           "solidity",
           "^",
@@ -727,10 +727,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/token/HRC20/HRC20.sol",
         "file": "../openzeppelin/token/HRC20/HRC20.sol",
-        "id": 14415,
+        "id": 14422,
         "nodeType": "ImportDirective",
-        "scope": 14440,
-        "sourceUnit": 5695,
+        "scope": 14447,
+        "sourceUnit": 5702,
         "src": "58:47:65",
         "symbolAliases": [],
         "unitAlias": ""
@@ -738,10 +738,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/access/Ownable.sol",
         "file": "../openzeppelin/access/Ownable.sol",
-        "id": 14416,
+        "id": 14423,
         "nodeType": "ImportDirective",
-        "scope": 14440,
-        "sourceUnit": 2842,
+        "scope": 14447,
+        "sourceUnit": 2849,
         "src": "106:44:65",
         "symbolAliases": [],
         "unitAlias": ""
@@ -753,7 +753,7 @@
             "arguments": [
               {
                 "hexValue": "536e6f7754657374",
-                "id": 14418,
+                "id": 14425,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -769,7 +769,7 @@
               },
               {
                 "hexValue": "534e46",
-                "id": 14419,
+                "id": 14426,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -785,59 +785,59 @@
               }
             ],
             "baseName": {
-              "id": 14417,
+              "id": 14424,
               "name": "HRC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5694,
+              "referencedDeclaration": 5701,
               "src": "173:5:65",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_HRC20_$5694",
+                "typeIdentifier": "t_contract$_HRC20_$5701",
                 "typeString": "contract HRC20"
               }
             },
-            "id": 14420,
+            "id": 14427,
             "nodeType": "InheritanceSpecifier",
             "src": "173:24:65"
           },
           {
             "baseName": {
-              "id": 14421,
+              "id": 14428,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2841,
+              "referencedDeclaration": 2848,
               "src": "199:7:65",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$2841",
+                "typeIdentifier": "t_contract$_Ownable_$2848",
                 "typeString": "contract Ownable"
               }
             },
-            "id": 14422,
+            "id": 14429,
             "nodeType": "InheritanceSpecifier",
             "src": "199:7:65"
           }
         ],
         "contractDependencies": [
-          1285,
-          2841,
-          5694,
-          6264
+          1292,
+          2848,
+          5701,
+          6271
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 14439,
+        "id": 14446,
         "linearizedBaseContracts": [
-          14439,
-          2841,
-          5694,
-          6264,
-          1285
+          14446,
+          2848,
+          5701,
+          6271,
+          1292
         ],
         "name": "SnowTest",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 14437,
+              "id": 14444,
               "nodeType": "Block",
               "src": "365:36:65",
               "statements": [
@@ -845,11 +845,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 14433,
+                        "id": 14440,
                         "name": "_to",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14425,
+                        "referencedDeclaration": 14432,
                         "src": "381:3:65",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -857,11 +857,11 @@
                         }
                       },
                       {
-                        "id": 14434,
+                        "id": 14441,
                         "name": "_amount",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 14427,
+                        "referencedDeclaration": 14434,
                         "src": "386:7:65",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -880,18 +880,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 14432,
+                      "id": 14439,
                       "name": "_mint",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5570,
+                      "referencedDeclaration": 5577,
                       "src": "375:5:65",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 14435,
+                    "id": 14442,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -906,31 +906,31 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 14436,
+                  "id": 14443,
                   "nodeType": "ExpressionStatement",
                   "src": "375:19:65"
                 }
               ]
             },
             "documentation": {
-              "id": 14423,
+              "id": 14430,
               "nodeType": "StructuredDocumentation",
               "src": "213:86:65",
               "text": "@notice Creates `_amount` token to `_to`. Must only be called by the owner (Farm)."
             },
             "functionSelector": "40c10f19",
-            "id": 14438,
+            "id": 14445,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "id": 14430,
+                "id": 14437,
                 "modifierName": {
-                  "id": 14429,
+                  "id": 14436,
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2790,
+                  "referencedDeclaration": 2797,
                   "src": "355:9:65",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -944,16 +944,16 @@
             "name": "mint",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14428,
+              "id": 14435,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14425,
+                  "id": 14432,
                   "mutability": "mutable",
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14438,
+                  "scope": 14445,
                   "src": "318:11:65",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -962,7 +962,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14424,
+                    "id": 14431,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "318:7:65",
@@ -976,11 +976,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14427,
+                  "id": 14434,
                   "mutability": "mutable",
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14438,
+                  "scope": 14445,
                   "src": "331:15:65",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -989,7 +989,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 14426,
+                    "id": 14433,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "331:7:65",
@@ -1004,19 +1004,19 @@
               "src": "317:30:65"
             },
             "returnParameters": {
-              "id": 14431,
+              "id": 14438,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "365:0:65"
             },
-            "scope": 14439,
+            "scope": 14446,
             "src": "304:97:65",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 14440,
+        "scope": 14447,
         "src": "152:251:65"
       }
     ],
@@ -1028,7 +1028,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-15T12:01:04.543Z",
+  "updatedAt": "2020-12-21T11:58:19.348Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

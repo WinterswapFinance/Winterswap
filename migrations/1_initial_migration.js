@@ -35,9 +35,20 @@ module.exports = async function (deployer, network, accounts) {
     let b = web3.utils.fromWei((await web3.eth.getBalance(global.winterswap.deployer)).toString(), 'ether');
     console.log(`now eth in deployer ${global.winterswap.deployer} lefts ${b} ether`);
 
+  } else if (network === 'huobi') {
+
+    const Config = require('./config/huobi.js');
+    global.winterswap.config = await Config(web3);
+    let b = web3.utils.fromWei((await web3.eth.getBalance(global.winterswap.deployer)).toString(), 'ether');
+    console.log(`now eth in deployer ${global.winterswap.deployer} lefts ${b} ether`);
+
   } else {
     throw new Error('network unknown');
   }
+
+  console.log('==================available accounts==================');
+  console.log(JSON.stringify(global.winterswap.config,null,2));
+  console.log('==================available accounts==================');
 
 
   const FROM_DEPLOYER =  global.winterswap.FROM_DEPLOYER;

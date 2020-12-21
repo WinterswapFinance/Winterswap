@@ -336,30 +336,30 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/snowman/Snowman.sol",
     "exportedSymbols": {
       "Context": [
-        1285
+        1292
       ],
       "HRC20": [
-        5694
+        5701
       ],
       "IHRC20": [
-        6264
+        6271
       ],
       "IWNS": [
-        14911
+        14918
       ],
       "SafeMath": [
-        4438
+        4445
       ],
       "Snowman": [
-        8792
+        8799
       ]
     },
-    "id": 8793,
+    "id": 8800,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 8646,
+        "id": 8653,
         "literals": [
           "solidity",
           "^",
@@ -372,10 +372,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/token/HRC20/HRC20.sol",
         "file": "../openzeppelin/token/HRC20/HRC20.sol",
-        "id": 8647,
+        "id": 8654,
         "nodeType": "ImportDirective",
-        "scope": 8793,
-        "sourceUnit": 5695,
+        "scope": 8800,
+        "sourceUnit": 5702,
         "src": "58:47:47",
         "symbolAliases": [],
         "unitAlias": ""
@@ -383,10 +383,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/IWNS.sol",
         "file": "../wns/IWNS.sol",
-        "id": 8648,
+        "id": 8655,
         "nodeType": "ImportDirective",
-        "scope": 8793,
-        "sourceUnit": 14912,
+        "scope": 8800,
+        "sourceUnit": 14919,
         "src": "106:25:47",
         "symbolAliases": [],
         "unitAlias": ""
@@ -398,7 +398,7 @@
             "arguments": [
               {
                 "hexValue": "536e6f776d616e",
-                "id": 8650,
+                "id": 8657,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -414,7 +414,7 @@
               },
               {
                 "hexValue": "534e4d",
-                "id": 8651,
+                "id": 8658,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -430,55 +430,55 @@
               }
             ],
             "baseName": {
-              "id": 8649,
+              "id": 8656,
               "name": "HRC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5694,
+              "referencedDeclaration": 5701,
               "src": "153:5:47",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_HRC20_$5694",
+                "typeIdentifier": "t_contract$_HRC20_$5701",
                 "typeString": "contract HRC20"
               }
             },
-            "id": 8652,
+            "id": 8659,
             "nodeType": "InheritanceSpecifier",
             "src": "153:22:47"
           }
         ],
         "contractDependencies": [
-          1285,
-          5694,
-          6264
+          1292,
+          5701,
+          6271
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 8792,
+        "id": 8799,
         "linearizedBaseContracts": [
-          8792,
-          5694,
-          6264,
-          1285
+          8799,
+          5701,
+          6271,
+          1292
         ],
         "name": "Snowman",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 8655,
+            "id": 8662,
             "libraryName": {
-              "id": 8653,
+              "id": 8660,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4438,
+              "referencedDeclaration": 4445,
               "src": "188:8:47",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$4438",
+                "typeIdentifier": "t_contract$_SafeMath_$4445",
                 "typeString": "library SafeMath"
               }
             },
             "nodeType": "UsingForDirective",
             "src": "182:27:47",
             "typeName": {
-              "id": 8654,
+              "id": 8661,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "201:7:47",
@@ -490,26 +490,26 @@
           },
           {
             "constant": false,
-            "id": 8657,
+            "id": 8664,
             "mutability": "mutable",
             "name": "wns",
             "nodeType": "VariableDeclaration",
-            "scope": 8792,
+            "scope": 8799,
             "src": "215:8:47",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IWNS_$14911",
+              "typeIdentifier": "t_contract$_IWNS_$14918",
               "typeString": "contract IWNS"
             },
             "typeName": {
-              "id": 8656,
+              "id": 8663,
               "name": "IWNS",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 14911,
+              "referencedDeclaration": 14918,
               "src": "215:4:47",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IWNS_$14911",
+                "typeIdentifier": "t_contract$_IWNS_$14918",
                 "typeString": "contract IWNS"
               }
             },
@@ -517,11 +517,11 @@
           },
           {
             "constant": false,
-            "id": 8659,
+            "id": 8666,
             "mutability": "mutable",
             "name": "snowball",
             "nodeType": "VariableDeclaration",
-            "scope": 8792,
+            "scope": 8799,
             "src": "229:16:47",
             "stateVariable": true,
             "storageLocation": "default",
@@ -530,7 +530,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 8658,
+              "id": 8665,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "229:7:47",
@@ -544,87 +544,87 @@
           },
           {
             "body": {
-              "id": 8668,
+              "id": 8675,
               "nodeType": "Block",
               "src": "314:27:47",
               "statements": [
                 {
                   "expression": {
-                    "id": 8666,
+                    "id": 8673,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 8664,
+                      "id": 8671,
                       "name": "wns",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 8657,
+                      "referencedDeclaration": 8664,
                       "src": "324:3:47",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IWNS_$14911",
+                        "typeIdentifier": "t_contract$_IWNS_$14918",
                         "typeString": "contract IWNS"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 8665,
+                      "id": 8672,
                       "name": "_wns",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 8661,
+                      "referencedDeclaration": 8668,
                       "src": "330:4:47",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IWNS_$14911",
+                        "typeIdentifier": "t_contract$_IWNS_$14918",
                         "typeString": "contract IWNS"
                       }
                     },
                     "src": "324:10:47",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IWNS_$14911",
+                      "typeIdentifier": "t_contract$_IWNS_$14918",
                       "typeString": "contract IWNS"
                     }
                   },
-                  "id": 8667,
+                  "id": 8674,
                   "nodeType": "ExpressionStatement",
                   "src": "324:10:47"
                 }
               ]
             },
-            "id": 8669,
+            "id": 8676,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8662,
+              "id": 8669,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8661,
+                  "id": 8668,
                   "mutability": "mutable",
                   "name": "_wns",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8669,
+                  "scope": 8676,
                   "src": "303:9:47",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IWNS_$14911",
+                    "typeIdentifier": "t_contract$_IWNS_$14918",
                     "typeString": "contract IWNS"
                   },
                   "typeName": {
-                    "id": 8660,
+                    "id": 8667,
                     "name": "IWNS",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 14911,
+                    "referencedDeclaration": 14918,
                     "src": "303:4:47",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IWNS_$14911",
+                      "typeIdentifier": "t_contract$_IWNS_$14918",
                       "typeString": "contract IWNS"
                     }
                   },
@@ -634,12 +634,12 @@
               "src": "302:11:47"
             },
             "returnParameters": {
-              "id": 8663,
+              "id": 8670,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "314:0:47"
             },
-            "scope": 8792,
+            "scope": 8799,
             "src": "291:50:47",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -647,23 +647,23 @@
           },
           {
             "body": {
-              "id": 8678,
+              "id": 8685,
               "nodeType": "Block",
               "src": "371:42:47",
               "statements": [
                 {
                   "expression": {
-                    "id": 8676,
+                    "id": 8683,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 8672,
+                      "id": 8679,
                       "name": "snowball",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 8659,
+                      "referencedDeclaration": 8666,
                       "src": "381:8:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -677,32 +677,32 @@
                       "expression": {
                         "argumentTypes": [],
                         "expression": {
-                          "id": 8673,
+                          "id": 8680,
                           "name": "wns",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8657,
+                          "referencedDeclaration": 8664,
                           "src": "392:3:47",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IWNS_$14911",
+                            "typeIdentifier": "t_contract$_IWNS_$14918",
                             "typeString": "contract IWNS"
                           }
                         },
-                        "id": 8674,
+                        "id": 8681,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "snowball",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 14900,
+                        "referencedDeclaration": 14907,
                         "src": "392:12:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                           "typeString": "function () view external returns (address)"
                         }
                       },
-                      "id": 8675,
+                      "id": 8682,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -723,32 +723,32 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 8677,
+                  "id": 8684,
                   "nodeType": "ExpressionStatement",
                   "src": "381:25:47"
                 }
               ]
             },
             "functionSelector": "e1c7392a",
-            "id": 8679,
+            "id": 8686,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "init",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8670,
+              "id": 8677,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "360:2:47"
             },
             "returnParameters": {
-              "id": 8671,
+              "id": 8678,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "371:0:47"
             },
-            "scope": 8792,
+            "scope": 8799,
             "src": "347:66:47",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -756,7 +756,7 @@
           },
           {
             "body": {
-              "id": 8746,
+              "id": 8753,
               "nodeType": "Block",
               "src": "567:674:47",
               "statements": [
@@ -765,7 +765,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 8688,
+                          "id": 8695,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -776,7 +776,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 8689,
+                        "id": 8696,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -792,14 +792,14 @@
                       {
                         "arguments": [
                           {
-                            "id": 8692,
+                            "id": 8699,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": -28,
                             "src": "627:4:47",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Snowman_$8792",
+                              "typeIdentifier": "t_contract$_Snowman_$8799",
                               "typeString": "contract Snowman"
                             }
                           }
@@ -807,11 +807,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Snowman_$8792",
+                              "typeIdentifier": "t_contract$_Snowman_$8799",
                               "typeString": "contract Snowman"
                             }
                           ],
-                          "id": 8691,
+                          "id": 8698,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -823,14 +823,14 @@
                             "typeString": "type(address)"
                           },
                           "typeName": {
-                            "id": 8690,
+                            "id": 8697,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
                             "src": "619:7:47",
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 8693,
+                        "id": 8700,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -846,11 +846,11 @@
                         }
                       },
                       {
-                        "id": 8694,
+                        "id": 8701,
                         "name": "_amount_snowball",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8681,
+                        "referencedDeclaration": 8688,
                         "src": "634:16:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -876,11 +876,11 @@
                       "expression": {
                         "arguments": [
                           {
-                            "id": 8685,
+                            "id": 8692,
                             "name": "snowball",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8659,
+                            "referencedDeclaration": 8666,
                             "src": "584:8:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -895,18 +895,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 8684,
+                          "id": 8691,
                           "name": "IHRC20",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6264,
+                          "referencedDeclaration": 6271,
                           "src": "577:6:47",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6264_$",
+                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6271_$",
                             "typeString": "type(contract IHRC20)"
                           }
                         },
-                        "id": 8686,
+                        "id": 8693,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -917,25 +917,25 @@
                         "src": "577:16:47",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IHRC20_$6264",
+                          "typeIdentifier": "t_contract$_IHRC20_$6271",
                           "typeString": "contract IHRC20"
                         }
                       },
-                      "id": 8687,
+                      "id": 8694,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "transferFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 6245,
+                      "referencedDeclaration": 6252,
                       "src": "577:29:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$_t_bool_$",
                         "typeString": "function (address,address,uint256) external returns (bool)"
                       }
                     },
-                    "id": 8695,
+                    "id": 8702,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -950,22 +950,22 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 8696,
+                  "id": 8703,
                   "nodeType": "ExpressionStatement",
                   "src": "577:74:47"
                 },
                 {
                   "assignments": [
-                    8698
+                    8705
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 8698,
+                      "id": 8705,
                       "mutability": "mutable",
                       "name": "totalSnowball",
                       "nodeType": "VariableDeclaration",
-                      "scope": 8746,
+                      "scope": 8753,
                       "src": "723:21:47",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -974,7 +974,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 8697,
+                        "id": 8704,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "723:7:47",
@@ -986,20 +986,20 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 8708,
+                  "id": 8715,
                   "initialValue": {
                     "arguments": [
                       {
                         "arguments": [
                           {
-                            "id": 8705,
+                            "id": 8712,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": -28,
                             "src": "782:4:47",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Snowman_$8792",
+                              "typeIdentifier": "t_contract$_Snowman_$8799",
                               "typeString": "contract Snowman"
                             }
                           }
@@ -1007,11 +1007,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Snowman_$8792",
+                              "typeIdentifier": "t_contract$_Snowman_$8799",
                               "typeString": "contract Snowman"
                             }
                           ],
-                          "id": 8704,
+                          "id": 8711,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1023,14 +1023,14 @@
                             "typeString": "type(address)"
                           },
                           "typeName": {
-                            "id": 8703,
+                            "id": 8710,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
                             "src": "774:7:47",
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 8706,
+                        "id": 8713,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1056,11 +1056,11 @@
                       "expression": {
                         "arguments": [
                           {
-                            "id": 8700,
+                            "id": 8707,
                             "name": "snowball",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8659,
+                            "referencedDeclaration": 8666,
                             "src": "754:8:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -1075,18 +1075,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 8699,
+                          "id": 8706,
                           "name": "IHRC20",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6264,
+                          "referencedDeclaration": 6271,
                           "src": "747:6:47",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6264_$",
+                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6271_$",
                             "typeString": "type(contract IHRC20)"
                           }
                         },
-                        "id": 8701,
+                        "id": 8708,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1097,25 +1097,25 @@
                         "src": "747:16:47",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IHRC20_$6264",
+                          "typeIdentifier": "t_contract$_IHRC20_$6271",
                           "typeString": "contract IHRC20"
                         }
                       },
-                      "id": 8702,
+                      "id": 8709,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "balanceOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 6203,
+                      "referencedDeclaration": 6210,
                       "src": "747:26:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
                         "typeString": "function (address) view external returns (uint256)"
                       }
                     },
-                    "id": 8707,
+                    "id": 8714,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1135,16 +1135,16 @@
                 },
                 {
                   "assignments": [
-                    8710
+                    8717
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 8710,
+                      "id": 8717,
                       "mutability": "mutable",
                       "name": "totalSnowman",
                       "nodeType": "VariableDeclaration",
-                      "scope": 8746,
+                      "scope": 8753,
                       "src": "849:20:47",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -1153,7 +1153,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 8709,
+                        "id": 8716,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "849:7:47",
@@ -1165,23 +1165,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 8713,
+                  "id": 8720,
                   "initialValue": {
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 8711,
+                      "id": 8718,
                       "name": "totalSupply",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5280,
+                      "referencedDeclaration": 5287,
                       "src": "872:11:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_uint256_$",
                         "typeString": "function () view returns (uint256)"
                       }
                     },
-                    "id": 8712,
+                    "id": 8719,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1205,7 +1205,7 @@
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
-                    "id": 8720,
+                    "id": 8727,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1215,17 +1215,17 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 8716,
+                      "id": 8723,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
-                        "id": 8714,
+                        "id": 8721,
                         "name": "totalSnowman",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8710,
+                        "referencedDeclaration": 8717,
                         "src": "927:12:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1236,7 +1236,7 @@
                       "operator": "==",
                       "rightExpression": {
                         "hexValue": "30",
-                        "id": 8715,
+                        "id": 8722,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1263,17 +1263,17 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 8719,
+                      "id": 8726,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
-                        "id": 8717,
+                        "id": 8724,
                         "name": "totalSnowball",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8698,
+                        "referencedDeclaration": 8705,
                         "src": "948:13:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1284,7 +1284,7 @@
                       "operator": "==",
                       "rightExpression": {
                         "hexValue": "30",
-                        "id": 8718,
+                        "id": 8725,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1311,22 +1311,22 @@
                     }
                   },
                   "falseBody": {
-                    "id": 8744,
+                    "id": 8751,
                     "nodeType": "Block",
                     "src": "1042:193:47",
                     "statements": [
                       {
                         "assignments": [
-                          8729
+                          8736
                         ],
                         "declarations": [
                           {
                             "constant": false,
-                            "id": 8729,
+                            "id": 8736,
                             "mutability": "mutable",
                             "name": "to_mint",
                             "nodeType": "VariableDeclaration",
-                            "scope": 8744,
+                            "scope": 8751,
                             "src": "1113:15:47",
                             "stateVariable": false,
                             "storageLocation": "default",
@@ -1335,7 +1335,7 @@
                               "typeString": "uint256"
                             },
                             "typeName": {
-                              "id": 8728,
+                              "id": 8735,
                               "name": "uint256",
                               "nodeType": "ElementaryTypeName",
                               "src": "1113:7:47",
@@ -1347,15 +1347,15 @@
                             "visibility": "internal"
                           }
                         ],
-                        "id": 8737,
+                        "id": 8744,
                         "initialValue": {
                           "arguments": [
                             {
-                              "id": 8735,
+                              "id": 8742,
                               "name": "totalSnowball",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8698,
+                              "referencedDeclaration": 8705,
                               "src": "1170:13:47",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -1373,11 +1373,11 @@
                             "expression": {
                               "arguments": [
                                 {
-                                  "id": 8732,
+                                  "id": 8739,
                                   "name": "totalSnowman",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 8710,
+                                  "referencedDeclaration": 8717,
                                   "src": "1152:12:47",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -1393,32 +1393,32 @@
                                   }
                                 ],
                                 "expression": {
-                                  "id": 8730,
+                                  "id": 8737,
                                   "name": "_amount_snowball",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 8681,
+                                  "referencedDeclaration": 8688,
                                   "src": "1131:16:47",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
                                   }
                                 },
-                                "id": 8731,
+                                "id": 8738,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "memberName": "mul",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 4351,
+                                "referencedDeclaration": 4358,
                                 "src": "1131:20:47",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                   "typeString": "function (uint256,uint256) pure returns (uint256)"
                                 }
                               },
-                              "id": 8733,
+                              "id": 8740,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1433,21 +1433,21 @@
                                 "typeString": "uint256"
                               }
                             },
-                            "id": 8734,
+                            "id": 8741,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "memberName": "div",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 4368,
+                            "referencedDeclaration": 4375,
                             "src": "1131:38:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                               "typeString": "function (uint256,uint256) pure returns (uint256)"
                             }
                           },
-                          "id": 8736,
+                          "id": 8743,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1470,7 +1470,7 @@
                           "arguments": [
                             {
                               "expression": {
-                                "id": 8739,
+                                "id": 8746,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -1481,7 +1481,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 8740,
+                              "id": 8747,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1495,11 +1495,11 @@
                               }
                             },
                             {
-                              "id": 8741,
+                              "id": 8748,
                               "name": "to_mint",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8729,
+                              "referencedDeclaration": 8736,
                               "src": "1216:7:47",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -1518,18 +1518,18 @@
                                 "typeString": "uint256"
                               }
                             ],
-                            "id": 8738,
+                            "id": 8745,
                             "name": "_mint",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5570,
+                            "referencedDeclaration": 5577,
                             "src": "1198:5:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                               "typeString": "function (address,uint256)"
                             }
                           },
-                          "id": 8742,
+                          "id": 8749,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1544,17 +1544,17 @@
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 8743,
+                        "id": 8750,
                         "nodeType": "ExpressionStatement",
                         "src": "1198:26:47"
                       }
                     ]
                   },
-                  "id": 8745,
+                  "id": 8752,
                   "nodeType": "IfStatement",
                   "src": "923:312:47",
                   "trueBody": {
-                    "id": 8727,
+                    "id": 8734,
                     "nodeType": "Block",
                     "src": "968:60:47",
                     "statements": [
@@ -1563,7 +1563,7 @@
                           "arguments": [
                             {
                               "expression": {
-                                "id": 8722,
+                                "id": 8729,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -1574,7 +1574,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 8723,
+                              "id": 8730,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -1588,11 +1588,11 @@
                               }
                             },
                             {
-                              "id": 8724,
+                              "id": 8731,
                               "name": "_amount_snowball",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8681,
+                              "referencedDeclaration": 8688,
                               "src": "1000:16:47",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -1611,18 +1611,18 @@
                                 "typeString": "uint256"
                               }
                             ],
-                            "id": 8721,
+                            "id": 8728,
                             "name": "_mint",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5570,
+                            "referencedDeclaration": 5577,
                             "src": "982:5:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                               "typeString": "function (address,uint256)"
                             }
                           },
-                          "id": 8725,
+                          "id": 8732,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1637,7 +1637,7 @@
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 8726,
+                        "id": 8733,
                         "nodeType": "ExpressionStatement",
                         "src": "982:35:47"
                       }
@@ -1647,23 +1647,23 @@
               ]
             },
             "functionSelector": "a694fc3a",
-            "id": 8747,
+            "id": 8754,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "stake",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8682,
+              "id": 8689,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8681,
+                  "id": 8688,
                   "mutability": "mutable",
                   "name": "_amount_snowball",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8747,
+                  "scope": 8754,
                   "src": "534:24:47",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1672,7 +1672,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 8680,
+                    "id": 8687,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "534:7:47",
@@ -1687,12 +1687,12 @@
               "src": "533:26:47"
             },
             "returnParameters": {
-              "id": 8683,
+              "id": 8690,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "567:0:47"
             },
-            "scope": 8792,
+            "scope": 8799,
             "src": "519:722:47",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -1700,22 +1700,22 @@
           },
           {
             "body": {
-              "id": 8790,
+              "id": 8797,
               "nodeType": "Block",
               "src": "1295:267:47",
               "statements": [
                 {
                   "assignments": [
-                    8753
+                    8760
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 8753,
+                      "id": 8760,
                       "mutability": "mutable",
                       "name": "totalSnowman",
                       "nodeType": "VariableDeclaration",
-                      "scope": 8790,
+                      "scope": 8797,
                       "src": "1305:20:47",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -1724,7 +1724,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 8752,
+                        "id": 8759,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "1305:7:47",
@@ -1736,23 +1736,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 8756,
+                  "id": 8763,
                   "initialValue": {
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 8754,
+                      "id": 8761,
                       "name": "totalSupply",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5280,
+                      "referencedDeclaration": 5287,
                       "src": "1328:11:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_uint256_$",
                         "typeString": "function () view returns (uint256)"
                       }
                     },
-                    "id": 8755,
+                    "id": 8762,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1772,16 +1772,16 @@
                 },
                 {
                   "assignments": [
-                    8758
+                    8765
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 8758,
+                      "id": 8765,
                       "mutability": "mutable",
                       "name": "to_return",
                       "nodeType": "VariableDeclaration",
-                      "scope": 8790,
+                      "scope": 8797,
                       "src": "1352:17:47",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -1790,7 +1790,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 8757,
+                        "id": 8764,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "1352:7:47",
@@ -1802,15 +1802,15 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 8774,
+                  "id": 8781,
                   "initialValue": {
                     "arguments": [
                       {
-                        "id": 8772,
+                        "id": 8779,
                         "name": "totalSnowman",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8753,
+                        "referencedDeclaration": 8760,
                         "src": "1439:12:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1832,14 +1832,14 @@
                               {
                                 "arguments": [
                                   {
-                                    "id": 8767,
+                                    "id": 8774,
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
                                     "referencedDeclaration": -28,
                                     "src": "1427:4:47",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_Snowman_$8792",
+                                      "typeIdentifier": "t_contract$_Snowman_$8799",
                                       "typeString": "contract Snowman"
                                     }
                                   }
@@ -1847,11 +1847,11 @@
                                 "expression": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_contract$_Snowman_$8792",
+                                      "typeIdentifier": "t_contract$_Snowman_$8799",
                                       "typeString": "contract Snowman"
                                     }
                                   ],
-                                  "id": 8766,
+                                  "id": 8773,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
@@ -1863,14 +1863,14 @@
                                     "typeString": "type(address)"
                                   },
                                   "typeName": {
-                                    "id": 8765,
+                                    "id": 8772,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "1419:7:47",
                                     "typeDescriptions": {}
                                   }
                                 },
-                                "id": 8768,
+                                "id": 8775,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -1896,11 +1896,11 @@
                               "expression": {
                                 "arguments": [
                                   {
-                                    "id": 8762,
+                                    "id": 8769,
                                     "name": "snowball",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 8659,
+                                    "referencedDeclaration": 8666,
                                     "src": "1399:8:47",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_address",
@@ -1915,18 +1915,18 @@
                                       "typeString": "address"
                                     }
                                   ],
-                                  "id": 8761,
+                                  "id": 8768,
                                   "name": "IHRC20",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 6264,
+                                  "referencedDeclaration": 6271,
                                   "src": "1392:6:47",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_contract$_IHRC20_$6264_$",
+                                    "typeIdentifier": "t_type$_t_contract$_IHRC20_$6271_$",
                                     "typeString": "type(contract IHRC20)"
                                   }
                                 },
-                                "id": 8763,
+                                "id": 8770,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -1937,25 +1937,25 @@
                                 "src": "1392:16:47",
                                 "tryCall": false,
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_IHRC20_$6264",
+                                  "typeIdentifier": "t_contract$_IHRC20_$6271",
                                   "typeString": "contract IHRC20"
                                 }
                               },
-                              "id": 8764,
+                              "id": 8771,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "memberName": "balanceOf",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 6203,
+                              "referencedDeclaration": 6210,
                               "src": "1392:26:47",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
                                 "typeString": "function (address) view external returns (uint256)"
                               }
                             },
-                            "id": 8769,
+                            "id": 8776,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1979,32 +1979,32 @@
                             }
                           ],
                           "expression": {
-                            "id": 8759,
+                            "id": 8766,
                             "name": "_amount_snowman",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8749,
+                            "referencedDeclaration": 8756,
                             "src": "1372:15:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "id": 8760,
+                          "id": 8767,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4351,
+                          "referencedDeclaration": 4358,
                           "src": "1372:19:47",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
                           }
                         },
-                        "id": 8770,
+                        "id": 8777,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2019,21 +2019,21 @@
                           "typeString": "uint256"
                         }
                       },
-                      "id": 8771,
+                      "id": 8778,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4368,
+                      "referencedDeclaration": 4375,
                       "src": "1372:66:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
                       }
                     },
-                    "id": 8773,
+                    "id": 8780,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2056,7 +2056,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 8776,
+                          "id": 8783,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -2067,7 +2067,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 8777,
+                        "id": 8784,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2081,11 +2081,11 @@
                         }
                       },
                       {
-                        "id": 8778,
+                        "id": 8785,
                         "name": "_amount_snowman",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8749,
+                        "referencedDeclaration": 8756,
                         "src": "1480:15:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2104,18 +2104,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 8775,
+                      "id": 8782,
                       "name": "_burn",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5626,
+                      "referencedDeclaration": 5633,
                       "src": "1462:5:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 8779,
+                    "id": 8786,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2130,7 +2130,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 8780,
+                  "id": 8787,
                   "nodeType": "ExpressionStatement",
                   "src": "1462:34:47"
                 },
@@ -2139,7 +2139,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 8785,
+                          "id": 8792,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -2150,7 +2150,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 8786,
+                        "id": 8793,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2164,11 +2164,11 @@
                         }
                       },
                       {
-                        "id": 8787,
+                        "id": 8794,
                         "name": "to_return",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8758,
+                        "referencedDeclaration": 8765,
                         "src": "1545:9:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2190,11 +2190,11 @@
                       "expression": {
                         "arguments": [
                           {
-                            "id": 8782,
+                            "id": 8789,
                             "name": "snowball",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8659,
+                            "referencedDeclaration": 8666,
                             "src": "1514:8:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -2209,18 +2209,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 8781,
+                          "id": 8788,
                           "name": "IHRC20",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6264,
+                          "referencedDeclaration": 6271,
                           "src": "1507:6:47",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6264_$",
+                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6271_$",
                             "typeString": "type(contract IHRC20)"
                           }
                         },
-                        "id": 8783,
+                        "id": 8790,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2231,25 +2231,25 @@
                         "src": "1507:16:47",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IHRC20_$6264",
+                          "typeIdentifier": "t_contract$_IHRC20_$6271",
                           "typeString": "contract IHRC20"
                         }
                       },
-                      "id": 8784,
+                      "id": 8791,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 6213,
+                      "referencedDeclaration": 6220,
                       "src": "1507:25:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
                         "typeString": "function (address,uint256) external returns (bool)"
                       }
                     },
-                    "id": 8788,
+                    "id": 8795,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2264,30 +2264,30 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 8789,
+                  "id": 8796,
                   "nodeType": "ExpressionStatement",
                   "src": "1507:48:47"
                 }
               ]
             },
             "functionSelector": "278ecde1",
-            "id": 8791,
+            "id": 8798,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "refund",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8750,
+              "id": 8757,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8749,
+                  "id": 8756,
                   "mutability": "mutable",
                   "name": "_amount_snowman",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8791,
+                  "scope": 8798,
                   "src": "1263:23:47",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2296,7 +2296,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 8748,
+                    "id": 8755,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1263:7:47",
@@ -2311,19 +2311,19 @@
               "src": "1262:25:47"
             },
             "returnParameters": {
-              "id": 8751,
+              "id": 8758,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1295:0:47"
             },
-            "scope": 8792,
+            "scope": 8799,
             "src": "1247:315:47",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 8793,
+        "scope": 8800,
         "src": "133:1431:47"
       }
     ],
@@ -2333,30 +2333,30 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/snowman/Snowman.sol",
     "exportedSymbols": {
       "Context": [
-        1285
+        1292
       ],
       "HRC20": [
-        5694
+        5701
       ],
       "IHRC20": [
-        6264
+        6271
       ],
       "IWNS": [
-        14911
+        14918
       ],
       "SafeMath": [
-        4438
+        4445
       ],
       "Snowman": [
-        8792
+        8799
       ]
     },
-    "id": 8793,
+    "id": 8800,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 8646,
+        "id": 8653,
         "literals": [
           "solidity",
           "^",
@@ -2369,10 +2369,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/openzeppelin/token/HRC20/HRC20.sol",
         "file": "../openzeppelin/token/HRC20/HRC20.sol",
-        "id": 8647,
+        "id": 8654,
         "nodeType": "ImportDirective",
-        "scope": 8793,
-        "sourceUnit": 5695,
+        "scope": 8800,
+        "sourceUnit": 5702,
         "src": "58:47:47",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2380,10 +2380,10 @@
       {
         "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wns/IWNS.sol",
         "file": "../wns/IWNS.sol",
-        "id": 8648,
+        "id": 8655,
         "nodeType": "ImportDirective",
-        "scope": 8793,
-        "sourceUnit": 14912,
+        "scope": 8800,
+        "sourceUnit": 14919,
         "src": "106:25:47",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2395,7 +2395,7 @@
             "arguments": [
               {
                 "hexValue": "536e6f776d616e",
-                "id": 8650,
+                "id": 8657,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -2411,7 +2411,7 @@
               },
               {
                 "hexValue": "534e4d",
-                "id": 8651,
+                "id": 8658,
                 "isConstant": false,
                 "isLValue": false,
                 "isPure": true,
@@ -2427,55 +2427,55 @@
               }
             ],
             "baseName": {
-              "id": 8649,
+              "id": 8656,
               "name": "HRC20",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 5694,
+              "referencedDeclaration": 5701,
               "src": "153:5:47",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_HRC20_$5694",
+                "typeIdentifier": "t_contract$_HRC20_$5701",
                 "typeString": "contract HRC20"
               }
             },
-            "id": 8652,
+            "id": 8659,
             "nodeType": "InheritanceSpecifier",
             "src": "153:22:47"
           }
         ],
         "contractDependencies": [
-          1285,
-          5694,
-          6264
+          1292,
+          5701,
+          6271
         ],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 8792,
+        "id": 8799,
         "linearizedBaseContracts": [
-          8792,
-          5694,
-          6264,
-          1285
+          8799,
+          5701,
+          6271,
+          1292
         ],
         "name": "Snowman",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "id": 8655,
+            "id": 8662,
             "libraryName": {
-              "id": 8653,
+              "id": 8660,
               "name": "SafeMath",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4438,
+              "referencedDeclaration": 4445,
               "src": "188:8:47",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_SafeMath_$4438",
+                "typeIdentifier": "t_contract$_SafeMath_$4445",
                 "typeString": "library SafeMath"
               }
             },
             "nodeType": "UsingForDirective",
             "src": "182:27:47",
             "typeName": {
-              "id": 8654,
+              "id": 8661,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
               "src": "201:7:47",
@@ -2487,26 +2487,26 @@
           },
           {
             "constant": false,
-            "id": 8657,
+            "id": 8664,
             "mutability": "mutable",
             "name": "wns",
             "nodeType": "VariableDeclaration",
-            "scope": 8792,
+            "scope": 8799,
             "src": "215:8:47",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_IWNS_$14911",
+              "typeIdentifier": "t_contract$_IWNS_$14918",
               "typeString": "contract IWNS"
             },
             "typeName": {
-              "id": 8656,
+              "id": 8663,
               "name": "IWNS",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 14911,
+              "referencedDeclaration": 14918,
               "src": "215:4:47",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_IWNS_$14911",
+                "typeIdentifier": "t_contract$_IWNS_$14918",
                 "typeString": "contract IWNS"
               }
             },
@@ -2514,11 +2514,11 @@
           },
           {
             "constant": false,
-            "id": 8659,
+            "id": 8666,
             "mutability": "mutable",
             "name": "snowball",
             "nodeType": "VariableDeclaration",
-            "scope": 8792,
+            "scope": 8799,
             "src": "229:16:47",
             "stateVariable": true,
             "storageLocation": "default",
@@ -2527,7 +2527,7 @@
               "typeString": "address"
             },
             "typeName": {
-              "id": 8658,
+              "id": 8665,
               "name": "address",
               "nodeType": "ElementaryTypeName",
               "src": "229:7:47",
@@ -2541,87 +2541,87 @@
           },
           {
             "body": {
-              "id": 8668,
+              "id": 8675,
               "nodeType": "Block",
               "src": "314:27:47",
               "statements": [
                 {
                   "expression": {
-                    "id": 8666,
+                    "id": 8673,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 8664,
+                      "id": 8671,
                       "name": "wns",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 8657,
+                      "referencedDeclaration": 8664,
                       "src": "324:3:47",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IWNS_$14911",
+                        "typeIdentifier": "t_contract$_IWNS_$14918",
                         "typeString": "contract IWNS"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 8665,
+                      "id": 8672,
                       "name": "_wns",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 8661,
+                      "referencedDeclaration": 8668,
                       "src": "330:4:47",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_IWNS_$14911",
+                        "typeIdentifier": "t_contract$_IWNS_$14918",
                         "typeString": "contract IWNS"
                       }
                     },
                     "src": "324:10:47",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IWNS_$14911",
+                      "typeIdentifier": "t_contract$_IWNS_$14918",
                       "typeString": "contract IWNS"
                     }
                   },
-                  "id": 8667,
+                  "id": 8674,
                   "nodeType": "ExpressionStatement",
                   "src": "324:10:47"
                 }
               ]
             },
-            "id": 8669,
+            "id": 8676,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8662,
+              "id": 8669,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8661,
+                  "id": 8668,
                   "mutability": "mutable",
                   "name": "_wns",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8669,
+                  "scope": 8676,
                   "src": "303:9:47",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IWNS_$14911",
+                    "typeIdentifier": "t_contract$_IWNS_$14918",
                     "typeString": "contract IWNS"
                   },
                   "typeName": {
-                    "id": 8660,
+                    "id": 8667,
                     "name": "IWNS",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 14911,
+                    "referencedDeclaration": 14918,
                     "src": "303:4:47",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_IWNS_$14911",
+                      "typeIdentifier": "t_contract$_IWNS_$14918",
                       "typeString": "contract IWNS"
                     }
                   },
@@ -2631,12 +2631,12 @@
               "src": "302:11:47"
             },
             "returnParameters": {
-              "id": 8663,
+              "id": 8670,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "314:0:47"
             },
-            "scope": 8792,
+            "scope": 8799,
             "src": "291:50:47",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -2644,23 +2644,23 @@
           },
           {
             "body": {
-              "id": 8678,
+              "id": 8685,
               "nodeType": "Block",
               "src": "371:42:47",
               "statements": [
                 {
                   "expression": {
-                    "id": 8676,
+                    "id": 8683,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 8672,
+                      "id": 8679,
                       "name": "snowball",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 8659,
+                      "referencedDeclaration": 8666,
                       "src": "381:8:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -2674,32 +2674,32 @@
                       "expression": {
                         "argumentTypes": [],
                         "expression": {
-                          "id": 8673,
+                          "id": 8680,
                           "name": "wns",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 8657,
+                          "referencedDeclaration": 8664,
                           "src": "392:3:47",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_IWNS_$14911",
+                            "typeIdentifier": "t_contract$_IWNS_$14918",
                             "typeString": "contract IWNS"
                           }
                         },
-                        "id": 8674,
+                        "id": 8681,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "snowball",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 14900,
+                        "referencedDeclaration": 14907,
                         "src": "392:12:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                           "typeString": "function () view external returns (address)"
                         }
                       },
-                      "id": 8675,
+                      "id": 8682,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2720,32 +2720,32 @@
                       "typeString": "address"
                     }
                   },
-                  "id": 8677,
+                  "id": 8684,
                   "nodeType": "ExpressionStatement",
                   "src": "381:25:47"
                 }
               ]
             },
             "functionSelector": "e1c7392a",
-            "id": 8679,
+            "id": 8686,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "init",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8670,
+              "id": 8677,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "360:2:47"
             },
             "returnParameters": {
-              "id": 8671,
+              "id": 8678,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "371:0:47"
             },
-            "scope": 8792,
+            "scope": 8799,
             "src": "347:66:47",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -2753,7 +2753,7 @@
           },
           {
             "body": {
-              "id": 8746,
+              "id": 8753,
               "nodeType": "Block",
               "src": "567:674:47",
               "statements": [
@@ -2762,7 +2762,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 8688,
+                          "id": 8695,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -2773,7 +2773,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 8689,
+                        "id": 8696,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2789,14 +2789,14 @@
                       {
                         "arguments": [
                           {
-                            "id": 8692,
+                            "id": 8699,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": -28,
                             "src": "627:4:47",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Snowman_$8792",
+                              "typeIdentifier": "t_contract$_Snowman_$8799",
                               "typeString": "contract Snowman"
                             }
                           }
@@ -2804,11 +2804,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Snowman_$8792",
+                              "typeIdentifier": "t_contract$_Snowman_$8799",
                               "typeString": "contract Snowman"
                             }
                           ],
-                          "id": 8691,
+                          "id": 8698,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -2820,14 +2820,14 @@
                             "typeString": "type(address)"
                           },
                           "typeName": {
-                            "id": 8690,
+                            "id": 8697,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
                             "src": "619:7:47",
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 8693,
+                        "id": 8700,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2843,11 +2843,11 @@
                         }
                       },
                       {
-                        "id": 8694,
+                        "id": 8701,
                         "name": "_amount_snowball",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8681,
+                        "referencedDeclaration": 8688,
                         "src": "634:16:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2873,11 +2873,11 @@
                       "expression": {
                         "arguments": [
                           {
-                            "id": 8685,
+                            "id": 8692,
                             "name": "snowball",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8659,
+                            "referencedDeclaration": 8666,
                             "src": "584:8:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -2892,18 +2892,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 8684,
+                          "id": 8691,
                           "name": "IHRC20",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6264,
+                          "referencedDeclaration": 6271,
                           "src": "577:6:47",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6264_$",
+                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6271_$",
                             "typeString": "type(contract IHRC20)"
                           }
                         },
-                        "id": 8686,
+                        "id": 8693,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2914,25 +2914,25 @@
                         "src": "577:16:47",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IHRC20_$6264",
+                          "typeIdentifier": "t_contract$_IHRC20_$6271",
                           "typeString": "contract IHRC20"
                         }
                       },
-                      "id": 8687,
+                      "id": 8694,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "transferFrom",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 6245,
+                      "referencedDeclaration": 6252,
                       "src": "577:29:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$_t_bool_$",
                         "typeString": "function (address,address,uint256) external returns (bool)"
                       }
                     },
-                    "id": 8695,
+                    "id": 8702,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2947,22 +2947,22 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 8696,
+                  "id": 8703,
                   "nodeType": "ExpressionStatement",
                   "src": "577:74:47"
                 },
                 {
                   "assignments": [
-                    8698
+                    8705
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 8698,
+                      "id": 8705,
                       "mutability": "mutable",
                       "name": "totalSnowball",
                       "nodeType": "VariableDeclaration",
-                      "scope": 8746,
+                      "scope": 8753,
                       "src": "723:21:47",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -2971,7 +2971,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 8697,
+                        "id": 8704,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "723:7:47",
@@ -2983,20 +2983,20 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 8708,
+                  "id": 8715,
                   "initialValue": {
                     "arguments": [
                       {
                         "arguments": [
                           {
-                            "id": 8705,
+                            "id": 8712,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": -28,
                             "src": "782:4:47",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Snowman_$8792",
+                              "typeIdentifier": "t_contract$_Snowman_$8799",
                               "typeString": "contract Snowman"
                             }
                           }
@@ -3004,11 +3004,11 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_Snowman_$8792",
+                              "typeIdentifier": "t_contract$_Snowman_$8799",
                               "typeString": "contract Snowman"
                             }
                           ],
-                          "id": 8704,
+                          "id": 8711,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -3020,14 +3020,14 @@
                             "typeString": "type(address)"
                           },
                           "typeName": {
-                            "id": 8703,
+                            "id": 8710,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
                             "src": "774:7:47",
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 8706,
+                        "id": 8713,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3053,11 +3053,11 @@
                       "expression": {
                         "arguments": [
                           {
-                            "id": 8700,
+                            "id": 8707,
                             "name": "snowball",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8659,
+                            "referencedDeclaration": 8666,
                             "src": "754:8:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -3072,18 +3072,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 8699,
+                          "id": 8706,
                           "name": "IHRC20",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6264,
+                          "referencedDeclaration": 6271,
                           "src": "747:6:47",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6264_$",
+                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6271_$",
                             "typeString": "type(contract IHRC20)"
                           }
                         },
-                        "id": 8701,
+                        "id": 8708,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -3094,25 +3094,25 @@
                         "src": "747:16:47",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IHRC20_$6264",
+                          "typeIdentifier": "t_contract$_IHRC20_$6271",
                           "typeString": "contract IHRC20"
                         }
                       },
-                      "id": 8702,
+                      "id": 8709,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "balanceOf",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 6203,
+                      "referencedDeclaration": 6210,
                       "src": "747:26:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
                         "typeString": "function (address) view external returns (uint256)"
                       }
                     },
-                    "id": 8707,
+                    "id": 8714,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3132,16 +3132,16 @@
                 },
                 {
                   "assignments": [
-                    8710
+                    8717
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 8710,
+                      "id": 8717,
                       "mutability": "mutable",
                       "name": "totalSnowman",
                       "nodeType": "VariableDeclaration",
-                      "scope": 8746,
+                      "scope": 8753,
                       "src": "849:20:47",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -3150,7 +3150,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 8709,
+                        "id": 8716,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "849:7:47",
@@ -3162,23 +3162,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 8713,
+                  "id": 8720,
                   "initialValue": {
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 8711,
+                      "id": 8718,
                       "name": "totalSupply",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5280,
+                      "referencedDeclaration": 5287,
                       "src": "872:11:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_uint256_$",
                         "typeString": "function () view returns (uint256)"
                       }
                     },
-                    "id": 8712,
+                    "id": 8719,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3202,7 +3202,7 @@
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
-                    "id": 8720,
+                    "id": 8727,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3212,17 +3212,17 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 8716,
+                      "id": 8723,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
-                        "id": 8714,
+                        "id": 8721,
                         "name": "totalSnowman",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8710,
+                        "referencedDeclaration": 8717,
                         "src": "927:12:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -3233,7 +3233,7 @@
                       "operator": "==",
                       "rightExpression": {
                         "hexValue": "30",
-                        "id": 8715,
+                        "id": 8722,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -3260,17 +3260,17 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 8719,
+                      "id": 8726,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
-                        "id": 8717,
+                        "id": 8724,
                         "name": "totalSnowball",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8698,
+                        "referencedDeclaration": 8705,
                         "src": "948:13:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -3281,7 +3281,7 @@
                       "operator": "==",
                       "rightExpression": {
                         "hexValue": "30",
-                        "id": 8718,
+                        "id": 8725,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -3308,22 +3308,22 @@
                     }
                   },
                   "falseBody": {
-                    "id": 8744,
+                    "id": 8751,
                     "nodeType": "Block",
                     "src": "1042:193:47",
                     "statements": [
                       {
                         "assignments": [
-                          8729
+                          8736
                         ],
                         "declarations": [
                           {
                             "constant": false,
-                            "id": 8729,
+                            "id": 8736,
                             "mutability": "mutable",
                             "name": "to_mint",
                             "nodeType": "VariableDeclaration",
-                            "scope": 8744,
+                            "scope": 8751,
                             "src": "1113:15:47",
                             "stateVariable": false,
                             "storageLocation": "default",
@@ -3332,7 +3332,7 @@
                               "typeString": "uint256"
                             },
                             "typeName": {
-                              "id": 8728,
+                              "id": 8735,
                               "name": "uint256",
                               "nodeType": "ElementaryTypeName",
                               "src": "1113:7:47",
@@ -3344,15 +3344,15 @@
                             "visibility": "internal"
                           }
                         ],
-                        "id": 8737,
+                        "id": 8744,
                         "initialValue": {
                           "arguments": [
                             {
-                              "id": 8735,
+                              "id": 8742,
                               "name": "totalSnowball",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8698,
+                              "referencedDeclaration": 8705,
                               "src": "1170:13:47",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -3370,11 +3370,11 @@
                             "expression": {
                               "arguments": [
                                 {
-                                  "id": 8732,
+                                  "id": 8739,
                                   "name": "totalSnowman",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 8710,
+                                  "referencedDeclaration": 8717,
                                   "src": "1152:12:47",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -3390,32 +3390,32 @@
                                   }
                                 ],
                                 "expression": {
-                                  "id": 8730,
+                                  "id": 8737,
                                   "name": "_amount_snowball",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 8681,
+                                  "referencedDeclaration": 8688,
                                   "src": "1131:16:47",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
                                     "typeString": "uint256"
                                   }
                                 },
-                                "id": 8731,
+                                "id": 8738,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "memberName": "mul",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 4351,
+                                "referencedDeclaration": 4358,
                                 "src": "1131:20:47",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                                   "typeString": "function (uint256,uint256) pure returns (uint256)"
                                 }
                               },
-                              "id": 8733,
+                              "id": 8740,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -3430,21 +3430,21 @@
                                 "typeString": "uint256"
                               }
                             },
-                            "id": 8734,
+                            "id": 8741,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
                             "lValueRequested": false,
                             "memberName": "div",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 4368,
+                            "referencedDeclaration": 4375,
                             "src": "1131:38:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                               "typeString": "function (uint256,uint256) pure returns (uint256)"
                             }
                           },
-                          "id": 8736,
+                          "id": 8743,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3467,7 +3467,7 @@
                           "arguments": [
                             {
                               "expression": {
-                                "id": 8739,
+                                "id": 8746,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -3478,7 +3478,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 8740,
+                              "id": 8747,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -3492,11 +3492,11 @@
                               }
                             },
                             {
-                              "id": 8741,
+                              "id": 8748,
                               "name": "to_mint",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8729,
+                              "referencedDeclaration": 8736,
                               "src": "1216:7:47",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -3515,18 +3515,18 @@
                                 "typeString": "uint256"
                               }
                             ],
-                            "id": 8738,
+                            "id": 8745,
                             "name": "_mint",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5570,
+                            "referencedDeclaration": 5577,
                             "src": "1198:5:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                               "typeString": "function (address,uint256)"
                             }
                           },
-                          "id": 8742,
+                          "id": 8749,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3541,17 +3541,17 @@
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 8743,
+                        "id": 8750,
                         "nodeType": "ExpressionStatement",
                         "src": "1198:26:47"
                       }
                     ]
                   },
-                  "id": 8745,
+                  "id": 8752,
                   "nodeType": "IfStatement",
                   "src": "923:312:47",
                   "trueBody": {
-                    "id": 8727,
+                    "id": 8734,
                     "nodeType": "Block",
                     "src": "968:60:47",
                     "statements": [
@@ -3560,7 +3560,7 @@
                           "arguments": [
                             {
                               "expression": {
-                                "id": 8722,
+                                "id": 8729,
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
@@ -3571,7 +3571,7 @@
                                   "typeString": "msg"
                                 }
                               },
-                              "id": 8723,
+                              "id": 8730,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
@@ -3585,11 +3585,11 @@
                               }
                             },
                             {
-                              "id": 8724,
+                              "id": 8731,
                               "name": "_amount_snowball",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 8681,
+                              "referencedDeclaration": 8688,
                               "src": "1000:16:47",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
@@ -3608,18 +3608,18 @@
                                 "typeString": "uint256"
                               }
                             ],
-                            "id": 8721,
+                            "id": 8728,
                             "name": "_mint",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5570,
+                            "referencedDeclaration": 5577,
                             "src": "982:5:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                               "typeString": "function (address,uint256)"
                             }
                           },
-                          "id": 8725,
+                          "id": 8732,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -3634,7 +3634,7 @@
                             "typeString": "tuple()"
                           }
                         },
-                        "id": 8726,
+                        "id": 8733,
                         "nodeType": "ExpressionStatement",
                         "src": "982:35:47"
                       }
@@ -3644,23 +3644,23 @@
               ]
             },
             "functionSelector": "a694fc3a",
-            "id": 8747,
+            "id": 8754,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "stake",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8682,
+              "id": 8689,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8681,
+                  "id": 8688,
                   "mutability": "mutable",
                   "name": "_amount_snowball",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8747,
+                  "scope": 8754,
                   "src": "534:24:47",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3669,7 +3669,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 8680,
+                    "id": 8687,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "534:7:47",
@@ -3684,12 +3684,12 @@
               "src": "533:26:47"
             },
             "returnParameters": {
-              "id": 8683,
+              "id": 8690,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "567:0:47"
             },
-            "scope": 8792,
+            "scope": 8799,
             "src": "519:722:47",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -3697,22 +3697,22 @@
           },
           {
             "body": {
-              "id": 8790,
+              "id": 8797,
               "nodeType": "Block",
               "src": "1295:267:47",
               "statements": [
                 {
                   "assignments": [
-                    8753
+                    8760
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 8753,
+                      "id": 8760,
                       "mutability": "mutable",
                       "name": "totalSnowman",
                       "nodeType": "VariableDeclaration",
-                      "scope": 8790,
+                      "scope": 8797,
                       "src": "1305:20:47",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -3721,7 +3721,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 8752,
+                        "id": 8759,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "1305:7:47",
@@ -3733,23 +3733,23 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 8756,
+                  "id": 8763,
                   "initialValue": {
                     "arguments": [],
                     "expression": {
                       "argumentTypes": [],
-                      "id": 8754,
+                      "id": 8761,
                       "name": "totalSupply",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5280,
+                      "referencedDeclaration": 5287,
                       "src": "1328:11:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_view$__$returns$_t_uint256_$",
                         "typeString": "function () view returns (uint256)"
                       }
                     },
-                    "id": 8755,
+                    "id": 8762,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3769,16 +3769,16 @@
                 },
                 {
                   "assignments": [
-                    8758
+                    8765
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 8758,
+                      "id": 8765,
                       "mutability": "mutable",
                       "name": "to_return",
                       "nodeType": "VariableDeclaration",
-                      "scope": 8790,
+                      "scope": 8797,
                       "src": "1352:17:47",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -3787,7 +3787,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 8757,
+                        "id": 8764,
                         "name": "uint256",
                         "nodeType": "ElementaryTypeName",
                         "src": "1352:7:47",
@@ -3799,15 +3799,15 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 8774,
+                  "id": 8781,
                   "initialValue": {
                     "arguments": [
                       {
-                        "id": 8772,
+                        "id": 8779,
                         "name": "totalSnowman",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8753,
+                        "referencedDeclaration": 8760,
                         "src": "1439:12:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -3829,14 +3829,14 @@
                               {
                                 "arguments": [
                                   {
-                                    "id": 8767,
+                                    "id": 8774,
                                     "name": "this",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
                                     "referencedDeclaration": -28,
                                     "src": "1427:4:47",
                                     "typeDescriptions": {
-                                      "typeIdentifier": "t_contract$_Snowman_$8792",
+                                      "typeIdentifier": "t_contract$_Snowman_$8799",
                                       "typeString": "contract Snowman"
                                     }
                                   }
@@ -3844,11 +3844,11 @@
                                 "expression": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_contract$_Snowman_$8792",
+                                      "typeIdentifier": "t_contract$_Snowman_$8799",
                                       "typeString": "contract Snowman"
                                     }
                                   ],
-                                  "id": 8766,
+                                  "id": 8773,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
@@ -3860,14 +3860,14 @@
                                     "typeString": "type(address)"
                                   },
                                   "typeName": {
-                                    "id": 8765,
+                                    "id": 8772,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
                                     "src": "1419:7:47",
                                     "typeDescriptions": {}
                                   }
                                 },
-                                "id": 8768,
+                                "id": 8775,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -3893,11 +3893,11 @@
                               "expression": {
                                 "arguments": [
                                   {
-                                    "id": 8762,
+                                    "id": 8769,
                                     "name": "snowball",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 8659,
+                                    "referencedDeclaration": 8666,
                                     "src": "1399:8:47",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_address",
@@ -3912,18 +3912,18 @@
                                       "typeString": "address"
                                     }
                                   ],
-                                  "id": 8761,
+                                  "id": 8768,
                                   "name": "IHRC20",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 6264,
+                                  "referencedDeclaration": 6271,
                                   "src": "1392:6:47",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_type$_t_contract$_IHRC20_$6264_$",
+                                    "typeIdentifier": "t_type$_t_contract$_IHRC20_$6271_$",
                                     "typeString": "type(contract IHRC20)"
                                   }
                                 },
-                                "id": 8763,
+                                "id": 8770,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
@@ -3934,25 +3934,25 @@
                                 "src": "1392:16:47",
                                 "tryCall": false,
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_IHRC20_$6264",
+                                  "typeIdentifier": "t_contract$_IHRC20_$6271",
                                   "typeString": "contract IHRC20"
                                 }
                               },
-                              "id": 8764,
+                              "id": 8771,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "memberName": "balanceOf",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 6203,
+                              "referencedDeclaration": 6210,
                               "src": "1392:26:47",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
                                 "typeString": "function (address) view external returns (uint256)"
                               }
                             },
-                            "id": 8769,
+                            "id": 8776,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -3976,32 +3976,32 @@
                             }
                           ],
                           "expression": {
-                            "id": 8759,
+                            "id": 8766,
                             "name": "_amount_snowman",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8749,
+                            "referencedDeclaration": 8756,
                             "src": "1372:15:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "id": 8760,
+                          "id": 8767,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "mul",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4351,
+                          "referencedDeclaration": 4358,
                           "src": "1372:19:47",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                             "typeString": "function (uint256,uint256) pure returns (uint256)"
                           }
                         },
-                        "id": 8770,
+                        "id": 8777,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -4016,21 +4016,21 @@
                           "typeString": "uint256"
                         }
                       },
-                      "id": 8771,
+                      "id": 8778,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "div",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4368,
+                      "referencedDeclaration": 4375,
                       "src": "1372:66:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_pure$_t_uint256_$_t_uint256_$returns$_t_uint256_$bound_to$_t_uint256_$",
                         "typeString": "function (uint256,uint256) pure returns (uint256)"
                       }
                     },
-                    "id": 8773,
+                    "id": 8780,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4053,7 +4053,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 8776,
+                          "id": 8783,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -4064,7 +4064,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 8777,
+                        "id": 8784,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -4078,11 +4078,11 @@
                         }
                       },
                       {
-                        "id": 8778,
+                        "id": 8785,
                         "name": "_amount_snowman",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8749,
+                        "referencedDeclaration": 8756,
                         "src": "1480:15:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -4101,18 +4101,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 8775,
+                      "id": 8782,
                       "name": "_burn",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5626,
+                      "referencedDeclaration": 5633,
                       "src": "1462:5:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 8779,
+                    "id": 8786,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4127,7 +4127,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 8780,
+                  "id": 8787,
                   "nodeType": "ExpressionStatement",
                   "src": "1462:34:47"
                 },
@@ -4136,7 +4136,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 8785,
+                          "id": 8792,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -4147,7 +4147,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 8786,
+                        "id": 8793,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -4161,11 +4161,11 @@
                         }
                       },
                       {
-                        "id": 8787,
+                        "id": 8794,
                         "name": "to_return",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8758,
+                        "referencedDeclaration": 8765,
                         "src": "1545:9:47",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -4187,11 +4187,11 @@
                       "expression": {
                         "arguments": [
                           {
-                            "id": 8782,
+                            "id": 8789,
                             "name": "snowball",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8659,
+                            "referencedDeclaration": 8666,
                             "src": "1514:8:47",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -4206,18 +4206,18 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 8781,
+                          "id": 8788,
                           "name": "IHRC20",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 6264,
+                          "referencedDeclaration": 6271,
                           "src": "1507:6:47",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6264_$",
+                            "typeIdentifier": "t_type$_t_contract$_IHRC20_$6271_$",
                             "typeString": "type(contract IHRC20)"
                           }
                         },
-                        "id": 8783,
+                        "id": 8790,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -4228,25 +4228,25 @@
                         "src": "1507:16:47",
                         "tryCall": false,
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_IHRC20_$6264",
+                          "typeIdentifier": "t_contract$_IHRC20_$6271",
                           "typeString": "contract IHRC20"
                         }
                       },
-                      "id": 8784,
+                      "id": 8791,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 6213,
+                      "referencedDeclaration": 6220,
                       "src": "1507:25:47",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
                         "typeString": "function (address,uint256) external returns (bool)"
                       }
                     },
-                    "id": 8788,
+                    "id": 8795,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -4261,30 +4261,30 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 8789,
+                  "id": 8796,
                   "nodeType": "ExpressionStatement",
                   "src": "1507:48:47"
                 }
               ]
             },
             "functionSelector": "278ecde1",
-            "id": 8791,
+            "id": 8798,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "refund",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8750,
+              "id": 8757,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8749,
+                  "id": 8756,
                   "mutability": "mutable",
                   "name": "_amount_snowman",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8791,
+                  "scope": 8798,
                   "src": "1263:23:47",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -4293,7 +4293,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 8748,
+                    "id": 8755,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1263:7:47",
@@ -4308,19 +4308,19 @@
               "src": "1262:25:47"
             },
             "returnParameters": {
-              "id": 8751,
+              "id": 8758,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1295:0:47"
             },
-            "scope": 8792,
+            "scope": 8799,
             "src": "1247:315:47",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 8793,
+        "scope": 8800,
         "src": "133:1431:47"
       }
     ],
@@ -4385,12 +4385,12 @@
         }
       },
       "links": {},
-      "address": "0x2EAEf2D1E30e239032Bf1e80Ab37e241D83A1E31",
-      "transactionHash": "0x498af6863365bcce8d44d1dc01c94bb9509bc6e3528bf5f89e4f0a5975b2f42b"
+      "address": "0x7cF04cdFe0dC80B06662521A8462E02FD5b0788e",
+      "transactionHash": "0x1d94745dbe5750e272643d97047b6119c9f539c41fb9c0467cd267cf3cddc40e"
     }
   },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-15T12:04:12.572Z",
+  "updatedAt": "2020-12-21T12:07:24.697Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

@@ -7,7 +7,7 @@ import "../wns/IWNS.sol";
 
 contract Snowball is HRC20Capped {
 
-    uint256 constant __cap__ = 10000000*10**18;
+    uint256 constant __cap__ = 1000000000*10**18;
 
     address farm;
     address lottery;

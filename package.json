@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "migrate-dev-reset": "truffle migrate --reset --network development",
     "migrate-huobi_test-reset": "truffle migrate --reset --skip-dry-run --network huobi_test",
+    "migrate-huobi-reset": "truffle migrate --reset --skip-dry-run --network huobi",
     "compile": "truffle compile --all",
     "test": "truffle test --network development"
   },

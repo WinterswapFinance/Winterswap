@@ -60,15 +60,15 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wht/IWHT.sol",
     "exportedSymbols": {
       "IWHT": [
-        14622
+        14629
       ]
     },
-    "id": 14623,
+    "id": 14630,
     "license": "GPL-3.0-or-later",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 14604,
+        "id": 14611,
         "literals": [
           "solidity",
           "^",
@@ -84,34 +84,34 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 14622,
+        "id": 14629,
         "linearizedBaseContracts": [
-          14622
+          14629
         ],
         "name": "IWHT",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "d0e30db0",
-            "id": 14607,
+            "id": 14614,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14605,
+              "id": 14612,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "108:2:67"
             },
             "returnParameters": {
-              "id": 14606,
+              "id": 14613,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "127:0:67"
             },
-            "scope": 14622,
+            "scope": 14629,
             "src": "92:36:67",
             "stateMutability": "payable",
             "virtual": false,
@@ -119,23 +119,23 @@
           },
           {
             "functionSelector": "a9059cbb",
-            "id": 14616,
+            "id": 14623,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "transfer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14612,
+              "id": 14619,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14609,
+                  "id": 14616,
                   "mutability": "mutable",
                   "name": "to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14616,
+                  "scope": 14623,
                   "src": "151:10:67",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -144,7 +144,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14608,
+                    "id": 14615,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "151:7:67",
@@ -158,11 +158,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14611,
+                  "id": 14618,
                   "mutability": "mutable",
                   "name": "value",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14616,
+                  "scope": 14623,
                   "src": "163:10:67",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -171,7 +171,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 14610,
+                    "id": 14617,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "163:4:67",
@@ -186,16 +186,16 @@
               "src": "150:24:67"
             },
             "returnParameters": {
-              "id": 14615,
+              "id": 14622,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14614,
+                  "id": 14621,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14616,
+                  "scope": 14623,
                   "src": "193:4:67",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -204,7 +204,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 14613,
+                    "id": 14620,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "193:4:67",
@@ -218,7 +218,7 @@
               ],
               "src": "192:6:67"
             },
-            "scope": 14622,
+            "scope": 14629,
             "src": "133:66:67",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -226,23 +226,23 @@
           },
           {
             "functionSelector": "2e1a7d4d",
-            "id": 14621,
+            "id": 14628,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "withdraw",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14619,
+              "id": 14626,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14618,
+                  "id": 14625,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14621,
+                  "scope": 14628,
                   "src": "222:4:67",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -251,7 +251,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 14617,
+                    "id": 14624,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "222:4:67",
@@ -266,19 +266,19 @@
               "src": "221:6:67"
             },
             "returnParameters": {
-              "id": 14620,
+              "id": 14627,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "236:0:67"
             },
-            "scope": 14622,
+            "scope": 14629,
             "src": "204:33:67",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 14623,
+        "scope": 14630,
         "src": "71:168:67"
       }
     ],
@@ -288,15 +288,15 @@
     "absolutePath": "/home/lycrus/WebstormProjects/WinterSwap/contracts/wht/IWHT.sol",
     "exportedSymbols": {
       "IWHT": [
-        14622
+        14629
       ]
     },
-    "id": 14623,
+    "id": 14630,
     "license": "GPL-3.0-or-later",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 14604,
+        "id": 14611,
         "literals": [
           "solidity",
           "^",
@@ -312,34 +312,34 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 14622,
+        "id": 14629,
         "linearizedBaseContracts": [
-          14622
+          14629
         ],
         "name": "IWHT",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "d0e30db0",
-            "id": 14607,
+            "id": 14614,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "deposit",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14605,
+              "id": 14612,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "108:2:67"
             },
             "returnParameters": {
-              "id": 14606,
+              "id": 14613,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "127:0:67"
             },
-            "scope": 14622,
+            "scope": 14629,
             "src": "92:36:67",
             "stateMutability": "payable",
             "virtual": false,
@@ -347,23 +347,23 @@
           },
           {
             "functionSelector": "a9059cbb",
-            "id": 14616,
+            "id": 14623,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "transfer",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14612,
+              "id": 14619,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14609,
+                  "id": 14616,
                   "mutability": "mutable",
                   "name": "to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14616,
+                  "scope": 14623,
                   "src": "151:10:67",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -372,7 +372,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 14608,
+                    "id": 14615,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "151:7:67",
@@ -386,11 +386,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14611,
+                  "id": 14618,
                   "mutability": "mutable",
                   "name": "value",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14616,
+                  "scope": 14623,
                   "src": "163:10:67",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -399,7 +399,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 14610,
+                    "id": 14617,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "163:4:67",
@@ -414,16 +414,16 @@
               "src": "150:24:67"
             },
             "returnParameters": {
-              "id": 14615,
+              "id": 14622,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14614,
+                  "id": 14621,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14616,
+                  "scope": 14623,
                   "src": "193:4:67",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -432,7 +432,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 14613,
+                    "id": 14620,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "193:4:67",
@@ -446,7 +446,7 @@
               ],
               "src": "192:6:67"
             },
-            "scope": 14622,
+            "scope": 14629,
             "src": "133:66:67",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -454,23 +454,23 @@
           },
           {
             "functionSelector": "2e1a7d4d",
-            "id": 14621,
+            "id": 14628,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "withdraw",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 14619,
+              "id": 14626,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 14618,
+                  "id": 14625,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 14621,
+                  "scope": 14628,
                   "src": "222:4:67",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -479,7 +479,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 14617,
+                    "id": 14624,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "222:4:67",
@@ -494,19 +494,19 @@
               "src": "221:6:67"
             },
             "returnParameters": {
-              "id": 14620,
+              "id": 14627,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "236:0:67"
             },
-            "scope": 14622,
+            "scope": 14629,
             "src": "204:33:67",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 14623,
+        "scope": 14630,
         "src": "71:168:67"
       }
     ],
@@ -518,7 +518,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-15T12:01:04.545Z",
+  "updatedAt": "2020-12-21T11:58:19.352Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
